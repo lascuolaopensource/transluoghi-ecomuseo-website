@@ -56,7 +56,7 @@ export default buildConfig({
 	],
 	globals: [Home, Testi, Footer, ChiSiamo, MobilitaSostenibile],
 
-	secret: process.env.PAYLOAD_SECRET || '',
+	secret: payloadSecret(),
 	typescript: {
 		outputFile: path.resolve(dirname, 'payload-types.ts'),
 	},
@@ -81,6 +81,12 @@ export default buildConfig({
 })
 
 //
+
+function payloadSecret() {
+	const secret = process.env.PAYLOAD_SECRET?.trim()
+	if (!secret) throw new Error('PAYLOAD_SECRET must be set')
+	return secret
+}
 
 function s3() {
 	return s3Storage({

@@ -1,5 +1,6 @@
 import { Access, CollectionConfig } from 'payload'
 
+import { authCookies } from '@/db/auth-cookies'
 import { CollectionGroup } from '@/db/utils'
 
 //
@@ -37,7 +38,9 @@ export const SocialAccount: CollectionConfig = {
 		delete: canChangeOwnAccount,
 		unlock: canChangeOwnAccount,
 	},
-	auth: true,
+	auth: {
+		cookies: authCookies,
+	},
 
 	fields: [
 		{
