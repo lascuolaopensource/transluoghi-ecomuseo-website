@@ -53,10 +53,12 @@ export const createPost: FormAction = async (_, data) => {
 				media: mediaId,
 				owner: user.id,
 			},
+			overrideAccess: false,
+			user,
 		})
 	} catch (error) {
 		console.error(error)
-		return { type: 'error', message: (error as Error).message }
+		return { type: 'error', message: 'Operazione non riuscita' }
 	}
 
 	return { type: 'success' }
