@@ -22,6 +22,8 @@ export default async function Page() {
 	const posts = await payload.find({
 		collection: 'social-post',
 		sort: '-createdAt',
+		overrideAccess: false,
+		user,
 		where: {
 			owner: {
 				equals: user.id,

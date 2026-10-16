@@ -14,6 +14,7 @@ export default async function Page() {
 		sort: '-createdAt',
 		depth: 2,
 		limit: 10,
+		overrideAccess: false,
 	})
 
 	return (

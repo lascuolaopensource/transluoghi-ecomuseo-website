@@ -30,6 +30,16 @@ export const SocialAccount: CollectionConfig = {
 			required: true,
 		},
 		{
+			name: 'email',
+			type: 'email',
+			access: {
+				read: ({ req: { user }, id }) => {
+					if (user?.collection === 'users') return true
+					return user?.collection === 'social-account' && String(user.id) === String(id)
+				},
+			},
+		},
+		{
 			name: 'persona',
 			type: 'relationship',
 			relationTo: 'persone',
