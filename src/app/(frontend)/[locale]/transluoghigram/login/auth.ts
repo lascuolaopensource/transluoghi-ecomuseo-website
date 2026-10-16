@@ -1,12 +1,14 @@
 'use server'
 
-import config from '@payload-config'
-import { login } from '@payloadcms/next/auth'
 import { getLocale } from 'next-intl/server'
+import { cookies } from 'next/headers'
+import { getCookieExpiration } from 'payload/shared'
 import { z } from 'zod'
 import { zfd } from 'zod-form-data'
 
+import { socialAccountNextCookie } from '@/db/auth-cookies'
 import { redirect } from '@/modules/i18n'
+import { getDb } from '@/modules/utils/server'
 
 import { FormAction } from '../_forms/types'
 
@@ -19,12 +21,22 @@ export const signup: FormAction = async (_, formData) => {
 	const { email, password } = validatedFields.data
 
 	try {
-		await login({
+		const payload = await getDb()
+		const result = await payload.login({
 			collection: 'social-account',
-			config,
-			email,
-			password,
+			data: { email, password },
 		})
+		if (!result.token) return { type: 'error', message: 'Failed to signup' }
+
+		const auth = payload.collections['social-account'].config.auth
+		const cookie = socialAccountNextCookie(
+			auth,
+			payload.config.cookiePrefix,
+			result.token,
+			getCookieExpiration({ seconds: auth.tokenExpiration }),
+		)
+		const store = await cookies()
+		store.set(cookie.name, cookie.value, cookie.options)
 	} catch (e) {
 		console.error(e)
 		return { type: 'error', message: 'Failed to signup' }

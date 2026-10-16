@@ -2,6 +2,7 @@ import { getLocale } from 'next-intl/server'
 import { headers } from 'next/headers'
 import { Payload } from 'payload'
 
+import { readSocialAccountUser } from '@/db/social-account-session'
 import { redirect } from '@/modules/i18n'
 import { getRelation } from '@/modules/utils'
 import { SocialAccount, SocialPost } from '@/payload-types'
@@ -9,8 +10,9 @@ import { SocialAccount, SocialPost } from '@/payload-types'
 //
 
 export async function validateUser(payload: Payload) {
-	const { user } = await payload.auth({
+	const user = await readSocialAccountUser({
 		headers: await headers(),
+		payload,
 	})
 
 	if (!user || user.collection !== 'social-account') {

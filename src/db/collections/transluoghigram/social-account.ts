@@ -1,6 +1,11 @@
 import { Access, CollectionConfig } from 'payload'
 
 import { authCookies } from '@/db/auth-cookies'
+import {
+	socialAccountCookieStrategy,
+	socialAccountLoginEndpoint,
+	socialAccountLogoutEndpoint,
+} from '@/db/social-account-session'
 import { CollectionGroup } from '@/db/utils'
 
 //
@@ -40,7 +45,9 @@ export const SocialAccount: CollectionConfig = {
 	},
 	auth: {
 		cookies: authCookies,
+		strategies: [socialAccountCookieStrategy],
 	},
+	endpoints: [socialAccountLoginEndpoint, socialAccountLogoutEndpoint],
 
 	fields: [
 		{
