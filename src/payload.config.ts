@@ -26,6 +26,7 @@ import { Testi } from '@/db/globals/testi'
 import { migrations } from '@/db/migrations'
 
 import { seo } from './modules/seo'
+import { getServerSideOrigin } from './modules/seo/get-url'
 import { getPaths } from './modules/utils/node'
 
 //
@@ -57,6 +58,7 @@ export default buildConfig({
 	globals: [Home, Testi, Footer, ChiSiamo, MobilitaSostenibile],
 
 	secret: payloadSecret(),
+	csrf: [getServerSideOrigin()],
 	typescript: {
 		outputFile: path.resolve(dirname, 'payload-types.ts'),
 	},

@@ -33,10 +33,20 @@ export function hasAdminCredential(headers: Headers, cookiePrefix: string) {
 	return Boolean(parseCookies(headers).get(`${cookiePrefix}-token`))
 }
 
+// extractJWT only checks the admin cookie. This cookie is read here, so the same csrf rule has to run first.
+function csrfAllowsCookie(headers: Headers, csrf: string[]) {
+	const origin = headers.get('Origin')
+	if (origin) return csrf.length === 0 || csrf.includes(origin)
+	if (csrf.length === 0) return true
+	const secFetchSite = headers.get('Sec-Fetch-Site')
+	return secFetchSite === 'same-origin' || secFetchSite === 'same-site' || secFetchSite === 'none'
+}
+
 export async function readSocialAccountUser({ headers, payload, req }: ReadArgs): Promise<SocialAccount | null> {
 	const cookiePrefix = payload.config.cookiePrefix
 	const token = parseCookies(headers).get(socialAccountCookieName(cookiePrefix))
 	if (!token) return null
+	if (!csrfAllowsCookie(headers, payload.config.csrf)) return null
 
 	const spoofed = new Headers(headers)
 	spoofed.set('Cookie', `${cookiePrefix}-token=${encodeURIComponent(token)}`)
@@ -58,6 +68,7 @@ export const socialAccountCookieStrategy: AuthStrategy = {
 	name: 'social-account-cookie',
 	authenticate: async ({ headers, payload, req }) => {
 		if (hasAdminCredential(headers, payload.config.cookiePrefix)) return { user: null }
+		if (!csrfAllowsCookie(headers, payload.config.csrf)) return { user: null }
 		const user = await readSocialAccountUser({ headers, payload, req })
 		return { user }
 	},
