@@ -3,6 +3,7 @@ import { readdir, stat } from 'node:fs/promises'
 import path from 'node:path'
 import { Payload } from 'payload'
 
+import { socialMediaMaxBytes } from '@/db/collections/transluoghigram/social-media'
 import { getRandomItem } from '@/modules/utils'
 import { getPaths } from '@/modules/utils/node'
 import { getDb } from '@/modules/utils/server'
@@ -87,8 +88,10 @@ export async function createPostMediaFromDirectory(
 		const filePath = path.resolve(directoryPath, file)
 		const fileStat = await stat(filePath)
 
-		// Only process files, not directories
+		// Only process files, not directories. Larger videos stay on disk and are not seeded.
 		if (fileStat.isFile()) {
+			if (fileStat.size > socialMediaMaxBytes) continue
+
 			const media = await payload.create({
 				collection: 'social-media',
 				data: {},
