@@ -34,13 +34,17 @@ export const createPost: FormAction = async (_, data) => {
 		if (media) {
 			const socialMedia = await db.create({
 				collection: 'social-media',
-				data: {},
+				data: {
+					owner: user.id,
+				},
 				file: {
 					data: Buffer.from(await media.arrayBuffer()),
 					mimetype: media.type,
 					name: media.name,
 					size: media.size,
 				},
+				overrideAccess: false,
+				user,
 			})
 			mediaId = socialMedia.id
 		}
