@@ -1,8 +1,20 @@
-import { CollectionConfig } from 'payload'
+import { Access, CollectionConfig } from 'payload'
 
 import { CollectionGroup } from '@/db/utils'
 
 //
+
+const canChangeOwnAccount: Access = ({ req: { user } }) => {
+	if (user?.collection == 'users') return true
+	if (user?.collection == 'social-account') {
+		return {
+			id: {
+				equals: user.id,
+			},
+		}
+	}
+	return false
+}
 
 export const SocialAccount: CollectionConfig = {
 	slug: 'social-account',
@@ -20,6 +32,10 @@ export const SocialAccount: CollectionConfig = {
 	access: {
 		read: () => true,
 		admin: () => false,
+		create: ({ req: { user } }) => user?.collection == 'users',
+		update: canChangeOwnAccount,
+		delete: canChangeOwnAccount,
+		unlock: canChangeOwnAccount,
 	},
 	auth: true,
 
