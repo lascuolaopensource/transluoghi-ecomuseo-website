@@ -2,6 +2,8 @@ import type { GlobalConfig } from 'payload'
 
 import { F } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
+
 //
 
 export const Testi: GlobalConfig<'testi'> = {
@@ -10,6 +12,7 @@ export const Testi: GlobalConfig<'testi'> = {
 
 	access: {
 		read: () => true,
+		update: isCmsUser,
 	},
 
 	fields: [

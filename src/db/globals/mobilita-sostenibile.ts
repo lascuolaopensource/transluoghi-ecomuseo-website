@@ -2,6 +2,8 @@ import type { GlobalConfig } from 'payload'
 
 import { Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
+
 //
 
 export const MobilitaSostenibile: GlobalConfig = {
@@ -10,6 +12,7 @@ export const MobilitaSostenibile: GlobalConfig = {
 
 	access: {
 		read: () => true,
+		update: isCmsUser,
 	},
 
 	fields: [

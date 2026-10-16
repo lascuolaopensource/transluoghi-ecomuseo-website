@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 
 import { F, Section, Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
@@ -22,6 +23,9 @@ export const Luoghi: CollectionConfig<'luoghi'> = {
 
 	access: {
 		read: () => true,
+		create: isCmsUser,
+		update: isCmsUser,
+		delete: isCmsUser,
 	},
 
 	fields: [

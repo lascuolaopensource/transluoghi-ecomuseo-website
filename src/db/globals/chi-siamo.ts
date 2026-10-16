@@ -2,6 +2,8 @@ import type { GlobalConfig } from 'payload'
 
 import { Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
+
 //
 
 export const ChiSiamo: GlobalConfig = {
@@ -10,6 +12,7 @@ export const ChiSiamo: GlobalConfig = {
 
 	access: {
 		read: () => true,
+		update: isCmsUser,
 	},
 
 	fields: [

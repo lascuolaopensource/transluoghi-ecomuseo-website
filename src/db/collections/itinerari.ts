@@ -2,6 +2,7 @@ import { type CollectionConfig, type Field } from 'payload'
 
 import { F, Section, Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
@@ -22,6 +23,9 @@ export const Itinerari: CollectionConfig = {
 
 	access: {
 		read: () => true,
+		create: isCmsUser,
+		update: isCmsUser,
+		delete: isCmsUser,
 	},
 
 	fields: [
