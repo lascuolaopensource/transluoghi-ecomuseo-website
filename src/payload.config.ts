@@ -59,6 +59,10 @@ export default buildConfig({
 
 	secret: payloadSecret(),
 	csrf: [getServerSideOrigin()],
+	// App uses PayloadSDK REST only; GraphQL also Set-Cookie payload-token on auth.
+	graphQL: {
+		disable: true,
+	},
 	typescript: {
 		outputFile: path.resolve(dirname, 'payload-types.ts'),
 	},
