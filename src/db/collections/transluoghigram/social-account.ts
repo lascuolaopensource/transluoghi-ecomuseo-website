@@ -4,6 +4,7 @@ import { hasCmsUser, isSocialAccount } from '@/db/access'
 import { authCookies } from '@/db/auth-cookies'
 import {
 	socialAccountCookieStrategy,
+	socialAccountFirstRegisterEndpoint,
 	socialAccountLoginEndpoint,
 	socialAccountLogoutEndpoint,
 	socialAccountRefreshEndpoint,
@@ -51,6 +52,7 @@ export const SocialAccount: CollectionConfig = {
 		strategies: [socialAccountCookieStrategy],
 	},
 	endpoints: [
+		socialAccountFirstRegisterEndpoint,
 		socialAccountLoginEndpoint,
 		socialAccountLogoutEndpoint,
 		socialAccountRefreshEndpoint,

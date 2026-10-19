@@ -125,6 +125,16 @@ function socialAuthClearedCookieResponse(message: string, auth: CollectionAuth, 
 	)
 }
 
+// Payload's first-register runs with overrideAccess when the collection is empty and
+// Set-Cookies payload-token. Social accounts are CMS-created only — block the bootstrap.
+export const socialAccountFirstRegisterEndpoint: Endpoint = {
+	path: '/first-register',
+	method: 'post',
+	handler: () => {
+		throw new APIError('Forbidden', 403)
+	},
+}
+
 export const socialAccountLoginEndpoint: Endpoint = {
 	path: '/login',
 	method: 'post',
