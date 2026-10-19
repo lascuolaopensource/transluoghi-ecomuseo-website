@@ -5,6 +5,7 @@ import { authCookies } from '@/db/auth-cookies'
 import {
 	socialAccountCookieStrategy,
 	socialAccountFirstRegisterEndpoint,
+	socialAccountForgotPasswordEndpoint,
 	socialAccountLoginEndpoint,
 	socialAccountLogoutEndpoint,
 	socialAccountRefreshEndpoint,
@@ -54,6 +55,7 @@ export const SocialAccount: CollectionConfig = {
 	},
 	endpoints: [
 		socialAccountFirstRegisterEndpoint,
+		socialAccountForgotPasswordEndpoint,
 		socialAccountLoginEndpoint,
 		socialAccountLogoutEndpoint,
 		socialAccountRefreshEndpoint,

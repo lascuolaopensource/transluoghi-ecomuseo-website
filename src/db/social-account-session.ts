@@ -125,6 +125,15 @@ export const socialAccountFirstRegisterEndpoint: Endpoint = {
 	},
 }
 
+// Self-serve reset emails are not part of the product; admins set passwords in the CMS.
+export const socialAccountForgotPasswordEndpoint: Endpoint = {
+	path: '/forgot-password',
+	method: 'post',
+	handler: () => {
+		throw new APIError('Forbidden', 403)
+	},
+}
+
 export const socialAccountLoginEndpoint: Endpoint = {
 	path: '/login',
 	method: 'post',
