@@ -1,7 +1,8 @@
 import { open, stat } from 'node:fs/promises'
 import { fileTypeFromBuffer } from 'file-type'
-import { CollectionConfig, ValidationError, type File } from 'payload'
+import { CollectionConfig, ValidationError, type File, type PayloadRequest } from 'payload'
 
+import { hasCmsUser, isSocialAccount } from '@/db/access'
 import { canChangeOwnResource, canCreateAsCmsOrSocial, stampOwnerBeforeValidate } from '@/db/owned-by-social-account'
 import { CollectionGroup, imageSizes } from '../../utils'
 
@@ -50,8 +51,21 @@ export const SocialMedia = {
 	hooks: {
 		beforeOperation: [
 			async ({ operation, req }) => {
-				if ((operation == 'create' || operation == 'update') && req.file) {
+				if (operation != 'create' && operation != 'update') return
+
+				if (req.file) {
 					await assertSocialMediaFile(req.file)
+					return
+				}
+
+				// filesRequiredOnCreate is false for seed remote URLs. Without a body, REST/local
+				// callers could otherwise set url + mimeType and skip sniffing — require a real
+				// upload for social sessions; CMS and non-social local (seed) may use remote URLs.
+				if (operation == 'create' && !canCreateSocialMediaWithoutFile(req)) {
+					throw new ValidationError({
+						collection: 'social-media',
+						errors: [{ message: 'File is required.', path: 'file' }],
+					})
 				}
 			},
 		],
@@ -68,6 +82,12 @@ export const SocialMedia = {
 		},
 	],
 } satisfies CollectionConfig
+
+function canCreateSocialMediaWithoutFile(req: PayloadRequest) {
+	if (hasCmsUser(req.user)) return true
+	if (req.payloadAPI === 'local' && !isSocialAccount(req.user)) return true
+	return false
+}
 
 async function assertSocialMediaFile(file: File) {
 	if ((await byteLength(file)) > socialMediaMaxBytes) {
