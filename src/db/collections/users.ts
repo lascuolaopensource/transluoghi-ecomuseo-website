@@ -10,6 +10,7 @@ export const Users: CollectionConfig = {
 	},
 	auth: {
 		cookies: authCookies,
+		removeTokenFromResponses: true,
 	},
 	access: {
 		read: isCmsUser,

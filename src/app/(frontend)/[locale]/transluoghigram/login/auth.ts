@@ -2,6 +2,7 @@
 
 import { getLocale } from 'next-intl/server'
 import { cookies } from 'next/headers'
+import { createLocalReq, loginOperation } from 'payload'
 import { getCookieExpiration } from 'payload/shared'
 import { z } from 'zod'
 import { zfd } from 'zod-form-data'
@@ -22,13 +23,16 @@ export const signup: FormAction = async (_, formData) => {
 
 	try {
 		const payload = await getDb()
-		const result = await payload.login({
-			collection: 'social-account',
+		const collection = payload.collections['social-account']
+		// loginOperation keeps the token; payload.login strips it when removeTokenFromResponses is set.
+		const result = await loginOperation({
+			collection,
 			data: { email, password },
+			req: await createLocalReq({}, payload),
 		})
 		if (!result.token) return { type: 'error', message: 'Failed to signup' }
 
-		const auth = payload.collections['social-account'].config.auth
+		const auth = collection.config.auth
 		const cookie = socialAccountNextCookie(
 			auth,
 			payload.config.cookiePrefix,

@@ -49,6 +49,7 @@ export const SocialAccount: CollectionConfig = {
 	},
 	auth: {
 		cookies: authCookies,
+		removeTokenFromResponses: true,
 		strategies: [socialAccountCookieStrategy],
 	},
 	endpoints: [
