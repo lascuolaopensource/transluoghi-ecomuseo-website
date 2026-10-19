@@ -737,6 +737,7 @@ export interface SocialPost {
  */
 export interface SocialMedia {
   id: number;
+  owner?: (number | null) | SocialAccount;
   _objectKey?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -1311,6 +1312,7 @@ export interface SocialPostSelect<T extends boolean = true> {
  * via the `definition` "social-media_select".
  */
 export interface SocialMediaSelect<T extends boolean = true> {
+  owner?: T;
   _objectKey?: T;
   updatedAt?: T;
   createdAt?: T;

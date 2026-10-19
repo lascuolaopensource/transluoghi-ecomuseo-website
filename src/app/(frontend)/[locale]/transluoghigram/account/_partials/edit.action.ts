@@ -27,10 +27,10 @@ export const editPost: FormAction = async (_, data) => {
 
 	const { text, link, id } = validatedFields.data
 
-	const result = await getPostAndValidateOwner(db, id, user)
-	if (result instanceof Error) return { type: 'error', message: result.message }
-
 	try {
+		const result = await getPostAndValidateOwner(db, id, user)
+		if (result instanceof Error) return { type: 'error', message: result.message }
+
 		await db.update({
 			collection: 'social-post',
 			id: id,
@@ -38,10 +38,12 @@ export const editPost: FormAction = async (_, data) => {
 				text,
 				link,
 			},
+			overrideAccess: false,
+			user,
 		})
 	} catch (error) {
 		console.error(error)
-		return { type: 'error', message: (error as Error).message }
+		return { type: 'error', message: 'Operazione non riuscita' }
 	}
 
 	return { type: 'success' }

@@ -1,5 +1,6 @@
 import type { CollectionConfig } from 'payload'
 
+import { isCmsUser } from '../access'
 import { CollectionGroup, imageMimeTypes, imageSizes } from '../utils'
 
 //
@@ -18,6 +19,9 @@ export const Media: CollectionConfig = {
 
 	access: {
 		read: () => true,
+		create: isCmsUser,
+		update: isCmsUser,
+		delete: isCmsUser,
 	},
 
 	fields: [

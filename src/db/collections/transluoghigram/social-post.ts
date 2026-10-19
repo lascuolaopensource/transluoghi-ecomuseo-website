@@ -1,6 +1,7 @@
 import { CollectionConfig } from 'payload'
 
 import { F } from '@/db/_partials'
+import { canChangeOwnResource, canCreateAsCmsOrSocial, stampOwnerBeforeValidate } from '@/db/owned-by-social-account'
 import { CollectionGroup } from '@/db/utils'
 
 //
@@ -20,7 +21,9 @@ export const SocialPost: CollectionConfig = {
 
 	access: {
 		read: () => true,
-		create: ({ req: { user } }) => user !== null,
+		create: canCreateAsCmsOrSocial,
+		update: canChangeOwnResource,
+		delete: canChangeOwnResource,
 	},
 
 	fields: [
@@ -43,19 +46,7 @@ export const SocialPost: CollectionConfig = {
 			relationTo: 'social-account',
 			required: true,
 			hooks: {
-				beforeValidate: [
-					({ value, req }) => {
-						if (value && req.user?.collection == 'users') {
-							return value
-						} else if (req.user?.collection == 'social-account') {
-							return req.user?.id
-						} else if (req.payloadAPI === 'local') {
-							return value
-						} else {
-							throw new Error('Unexpected error')
-						}
-					},
-				],
+				beforeValidate: [stampOwnerBeforeValidate],
 			},
 		},
 	],

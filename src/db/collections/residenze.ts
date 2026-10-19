@@ -4,6 +4,7 @@ import type { Residenze as ResidenzaType } from '@/payload-types'
 
 import { F, Section, Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
@@ -24,6 +25,9 @@ export const Residenze: CollectionConfig<'residenze'> = {
 
 	access: {
 		read: () => true,
+		create: isCmsUser,
+		update: isCmsUser,
+		delete: isCmsUser,
 	},
 
 	fields: [

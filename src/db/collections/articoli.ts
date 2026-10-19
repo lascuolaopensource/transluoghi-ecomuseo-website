@@ -2,6 +2,7 @@ import { CollectionConfig } from 'payload'
 
 import { F, Section, Tab } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
@@ -22,6 +23,9 @@ export const Articoli: CollectionConfig<'articoli'> = {
 
 	access: {
 		read: () => true,
+		create: isCmsUser,
+		update: isCmsUser,
+		delete: isCmsUser,
 	},
 
 	fields: [

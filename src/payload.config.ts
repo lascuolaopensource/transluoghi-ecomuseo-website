@@ -26,6 +26,7 @@ import { Testi } from '@/db/globals/testi'
 import { migrations } from '@/db/migrations'
 
 import { seo } from './modules/seo'
+import { getServerSideOrigin } from './modules/seo/get-url'
 import { getPaths } from './modules/utils/node'
 
 //
@@ -56,7 +57,12 @@ export default buildConfig({
 	],
 	globals: [Home, Testi, Footer, ChiSiamo, MobilitaSostenibile],
 
-	secret: process.env.PAYLOAD_SECRET || '',
+	secret: payloadSecret(),
+	csrf: [getServerSideOrigin()],
+	// App uses PayloadSDK REST only; GraphQL also Set-Cookie payload-token on auth.
+	graphQL: {
+		disable: true,
+	},
 	typescript: {
 		outputFile: path.resolve(dirname, 'payload-types.ts'),
 	},
@@ -81,6 +87,12 @@ export default buildConfig({
 })
 
 //
+
+function payloadSecret() {
+	const secret = process.env.PAYLOAD_SECRET?.trim()
+	if (!secret) throw new Error('PAYLOAD_SECRET must be set')
+	return secret
+}
 
 function s3() {
 	return s3Storage({

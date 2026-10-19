@@ -1,12 +1,15 @@
 'use server'
 
-import config from '@payload-config'
-import { login } from '@payloadcms/next/auth'
 import { getLocale } from 'next-intl/server'
+import { cookies } from 'next/headers'
+import { createLocalReq, loginOperation } from 'payload'
+import { getCookieExpiration } from 'payload/shared'
 import { z } from 'zod'
 import { zfd } from 'zod-form-data'
 
+import { socialAccountNextCookie } from '@/db/auth-cookies'
 import { redirect } from '@/modules/i18n'
+import { getDb } from '@/modules/utils/server'
 
 import { FormAction } from '../_forms/types'
 
@@ -19,12 +22,25 @@ export const signup: FormAction = async (_, formData) => {
 	const { email, password } = validatedFields.data
 
 	try {
-		await login({
-			collection: 'social-account',
-			config,
-			email,
-			password,
+		const payload = await getDb()
+		const collection = payload.collections['social-account']
+		// loginOperation keeps the token; payload.login strips it when removeTokenFromResponses is set.
+		const result = await loginOperation({
+			collection,
+			data: { email, password },
+			req: await createLocalReq({}, payload),
 		})
+		if (!result.token) return { type: 'error', message: 'Failed to signup' }
+
+		const auth = collection.config.auth
+		const cookie = socialAccountNextCookie(
+			auth,
+			payload.config.cookiePrefix,
+			result.token,
+			getCookieExpiration({ seconds: auth.tokenExpiration }),
+		)
+		const store = await cookies()
+		store.set(cookie.name, cookie.value, cookie.options)
 	} catch (e) {
 		console.error(e)
 		return { type: 'error', message: 'Failed to signup' }

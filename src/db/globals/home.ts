@@ -2,6 +2,8 @@ import type { CollectionSlug, GlobalConfig, RelationshipField } from 'payload'
 
 import * as F from '@/db/_partials/fields'
 
+import { isCmsUser } from '../access'
+
 //
 
 export const Home: GlobalConfig<'home'> = {
@@ -10,6 +12,7 @@ export const Home: GlobalConfig<'home'> = {
 
 	access: {
 		read: () => true,
+		update: isCmsUser,
 	},
 
 	fields: [

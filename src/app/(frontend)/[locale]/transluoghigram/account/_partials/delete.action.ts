@@ -25,17 +25,19 @@ export const deletePost: FormAction = async (_, data) => {
 
 	const { id } = validatedFields.data
 
-	const result = await getPostAndValidateOwner(db, id, user)
-	if (result instanceof Error) return { type: 'error', message: result.message }
-
 	try {
+		const result = await getPostAndValidateOwner(db, id, user)
+		if (result instanceof Error) return { type: 'error', message: result.message }
+
 		await db.delete({
 			collection: 'social-post',
 			id,
+			overrideAccess: false,
+			user,
 		})
 	} catch (error) {
 		console.error(error)
-		return { type: 'error', message: (error as Error).message }
+		return { type: 'error', message: 'Operazione non riuscita' }
 	}
 
 	return { type: 'success' }

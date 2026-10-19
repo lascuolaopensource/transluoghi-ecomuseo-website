@@ -2,13 +2,18 @@ import type { GlobalConfig } from 'payload'
 
 import { F } from '@/db/_partials'
 
+import { isCmsUser } from '../access'
+
 //
 
 export const Footer: GlobalConfig = {
 	slug: 'footer',
 	label: 'Footer',
 
-	access: { read: () => true },
+	access: {
+		read: () => true,
+		update: isCmsUser,
+	},
 
 	fields: [
 		F.plainRichText({ name: 'text_left', label: 'Testo a sinistra' }),
