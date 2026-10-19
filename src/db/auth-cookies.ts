@@ -18,16 +18,23 @@ function sameSite(auth: CollectionAuth): 'Lax' | 'None' | 'Strict' | undefined {
 	return undefined
 }
 
-function socialAccountCookieArgs(auth: CollectionAuth, cookiePrefix: string, value: string, expires: Date) {
+/** Shared name/domain/httpOnly/path/sameSite/secure for social-account cookies. */
+function socialAccountCookieFields(auth: CollectionAuth, cookiePrefix: string) {
 	return {
 		name: socialAccountCookieName(cookiePrefix),
 		domain: auth.cookies.domain || undefined,
-		expires,
 		httpOnly: true as const,
 		path: '/',
-		returnCookieAsObject: false as const,
 		sameSite: sameSite(auth),
 		secure: auth.cookies.secure,
+	}
+}
+
+function socialAccountCookieArgs(auth: CollectionAuth, cookiePrefix: string, value: string, expires: Date) {
+	return {
+		...socialAccountCookieFields(auth, cookiePrefix),
+		expires,
+		returnCookieAsObject: false as const,
 		value,
 	}
 }
@@ -51,17 +58,18 @@ export function socialAccountClearedCookie(auth: CollectionAuth, cookiePrefix: s
 }
 
 export function socialAccountNextCookie(auth: CollectionAuth, cookiePrefix: string, token: string, expires: Date) {
-	const site = sameSite(auth)
+	const fields = socialAccountCookieFields(auth, cookiePrefix)
+	const site = fields.sameSite
 	return {
-		name: socialAccountCookieName(cookiePrefix),
+		name: fields.name,
 		value: token,
 		options: {
-			domain: auth.cookies.domain || undefined,
+			domain: fields.domain,
 			expires,
-			httpOnly: true as const,
-			path: '/',
+			httpOnly: fields.httpOnly,
+			path: fields.path,
 			sameSite: site === 'None' ? ('none' as const) : site === 'Strict' ? ('strict' as const) : ('lax' as const),
-			secure: auth.cookies.secure,
+			secure: fields.secure,
 		},
 	}
 }

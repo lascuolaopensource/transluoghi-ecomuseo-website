@@ -6,6 +6,7 @@ import {
 	refreshOperation,
 	resetPasswordOperation,
 	type AuthStrategy,
+	type Collection,
 	type Endpoint,
 	type Payload,
 	type PayloadRequest,
@@ -29,6 +30,8 @@ type ReadArgs = {
 	req?: PayloadRequest
 }
 
+type CollectionAuth = Collection['config']['auth']
+
 export function hasAdminCredential(headers: Headers, cookiePrefix: string) {
 	const authorization = headers.get('Authorization')
 	if (authorization?.startsWith('JWT ') || authorization?.startsWith('Bearer ')) return true
@@ -50,12 +53,13 @@ export async function readSocialAccountUser({ headers, payload, req }: ReadArgs)
 	if (!token) return null
 	if (!csrfAllowsCookie(headers, payload.config.csrf)) return null
 
-	const spoofed = new Headers(headers)
-	spoofed.set('Cookie', `${cookiePrefix}-token=${encodeURIComponent(token)}`)
-	spoofed.set('DisableAutologin', 'true')
+	// JWTAuthentication only reads `${cookiePrefix}-token`; remap so the social token is visible under that name.
+	const headersForJwtStrategy = new Headers(headers)
+	headersForJwtStrategy.set('Cookie', `${cookiePrefix}-token=${encodeURIComponent(token)}`)
+	headersForJwtStrategy.set('DisableAutologin', 'true')
 
 	const result = await JWTAuthentication({
-		headers: spoofed,
+		headers: headersForJwtStrategy,
 		payload,
 		req,
 		strategyName: 'social-account-cookie',
@@ -84,6 +88,43 @@ function depthFrom(req: PayloadRequest) {
 	return number
 }
 
+/** Set social Set-Cookie when a token is present, optionally strip `token`, return JSON with message. */
+function socialAuthJsonResponse({
+	auth,
+	cookiePrefix,
+	message,
+	result,
+	token,
+	status = 200,
+}: {
+	auth: CollectionAuth
+	cookiePrefix: string
+	message: string
+	result: Record<string, unknown>
+	token?: string | null
+	status?: number
+}) {
+	const headers = new Headers()
+	if (token) {
+		headers.set('Set-Cookie', socialAccountSessionCookie(auth, cookiePrefix, token))
+	}
+	const body = { ...result }
+	if (auth.removeTokenFromResponses) delete body.token
+	return Response.json({ message, ...body }, { headers, status })
+}
+
+function socialAuthClearedCookieResponse(message: string, auth: CollectionAuth, cookiePrefix: string) {
+	return Response.json(
+		{ message },
+		{
+			headers: new Headers({
+				'Set-Cookie': socialAccountClearedCookie(auth, cookiePrefix),
+			}),
+			status: 200,
+		},
+	)
+}
+
 export const socialAccountLoginEndpoint: Endpoint = {
 	path: '/login',
 	method: 'post',
@@ -98,21 +139,13 @@ export const socialAccountLoginEndpoint: Endpoint = {
 			depth: depthFrom(req),
 			req,
 		})
-		const headers = new Headers()
-		if (result.token) {
-			headers.set(
-				'Set-Cookie',
-				socialAccountSessionCookie(collection.config.auth, req.payload.config.cookiePrefix, result.token),
-			)
-		}
-		if (collection.config.auth.removeTokenFromResponses) delete result.token
-		return Response.json(
-			{
-				message: req.t('authentication:passed'),
-				...result,
-			},
-			{ headers, status: 200 },
-		)
+		return socialAuthJsonResponse({
+			auth: collection.config.auth,
+			cookiePrefix: req.payload.config.cookiePrefix,
+			message: req.t('authentication:passed'),
+			result: { ...result },
+			token: result.token,
+		})
 	},
 }
 
@@ -137,14 +170,10 @@ export const socialAccountLogoutEndpoint: Endpoint = {
 		if (!result) {
 			return Response.json({ message: req.t('error:logoutFailed') }, { status: 400 })
 		}
-		return Response.json(
-			{ message: req.t('authentication:logoutSuccessful') },
-			{
-				headers: new Headers({
-					'Set-Cookie': socialAccountClearedCookie(collection.config.auth, req.payload.config.cookiePrefix),
-				}),
-				status: 200,
-			},
+		return socialAuthClearedCookieResponse(
+			req.t('authentication:logoutSuccessful'),
+			collection.config.auth,
+			req.payload.config.cookiePrefix,
 		)
 	},
 }
@@ -169,23 +198,16 @@ export const socialAccountRefreshEndpoint: Endpoint = {
 			req,
 		})
 		const { refreshedToken, ...resultWithoutToken } = result
-		const headers = new Headers()
-		if (result.setCookie && refreshedToken) {
-			headers.set(
-				'Set-Cookie',
-				socialAccountSessionCookie(collection.config.auth, req.payload.config.cookiePrefix, refreshedToken),
-			)
-		}
 		const body = collection.config.auth.removeTokenFromResponses
 			? resultWithoutToken
 			: { ...resultWithoutToken, refreshedToken }
-		return Response.json(
-			{
-				message: req.t('authentication:tokenRefreshSuccessful'),
-				...body,
-			},
-			{ headers, status: 200 },
-		)
+		return socialAuthJsonResponse({
+			auth: collection.config.auth,
+			cookiePrefix: req.payload.config.cookiePrefix,
+			message: req.t('authentication:tokenRefreshSuccessful'),
+			result: body,
+			token: result.setCookie && refreshedToken ? refreshedToken : undefined,
+		})
 	},
 }
 
@@ -203,20 +225,12 @@ export const socialAccountResetPasswordEndpoint: Endpoint = {
 			depth: depthFrom(req),
 			req,
 		})
-		const headers = new Headers()
-		if (result.token) {
-			headers.set(
-				'Set-Cookie',
-				socialAccountSessionCookie(collection.config.auth, req.payload.config.cookiePrefix, result.token),
-			)
-		}
-		if (collection.config.auth.removeTokenFromResponses) delete result.token
-		return Response.json(
-			{
-				message: req.t('authentication:passwordResetSuccessfully'),
-				...result,
-			},
-			{ headers, status: 200 },
-		)
+		return socialAuthJsonResponse({
+			auth: collection.config.auth,
+			cookiePrefix: req.payload.config.cookiePrefix,
+			message: req.t('authentication:passwordResetSuccessfully'),
+			result: { ...result },
+			token: result.token,
+		})
 	},
 }

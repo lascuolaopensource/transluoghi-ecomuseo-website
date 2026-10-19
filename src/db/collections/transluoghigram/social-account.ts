@@ -1,5 +1,6 @@
 import { Access, CollectionConfig } from 'payload'
 
+import { hasCmsUser, isSocialAccount } from '@/db/access'
 import { authCookies } from '@/db/auth-cookies'
 import {
 	socialAccountCookieStrategy,
@@ -13,8 +14,8 @@ import { CollectionGroup } from '@/db/utils'
 //
 
 const canChangeOwnAccount: Access = ({ req: { user } }) => {
-	if (user?.collection == 'users') return true
-	if (user?.collection == 'social-account') {
+	if (hasCmsUser(user)) return true
+	if (isSocialAccount(user)) {
 		return {
 			id: {
 				equals: user.id,
@@ -40,7 +41,7 @@ export const SocialAccount: CollectionConfig = {
 	access: {
 		read: () => true,
 		admin: () => false,
-		create: ({ req: { user } }) => user?.collection == 'users',
+		create: ({ req: { user } }) => hasCmsUser(user),
 		update: canChangeOwnAccount,
 		delete: canChangeOwnAccount,
 		unlock: canChangeOwnAccount,
@@ -67,8 +68,8 @@ export const SocialAccount: CollectionConfig = {
 			type: 'email',
 			access: {
 				read: ({ req: { user }, id }) => {
-					if (user?.collection === 'users') return true
-					return user?.collection === 'social-account' && String(user.id) === String(id)
+					if (hasCmsUser(user)) return true
+					return isSocialAccount(user) && String(user.id) === String(id)
 				},
 			},
 		},
