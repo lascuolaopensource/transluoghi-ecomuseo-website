@@ -84,5 +84,9 @@
 	},
 	"articoli": {
 		"backButton": "Tutti gli articoli"
+	},
+	"transluoghigram": {
+		"empty_state": "Attualmente, non ci sono post",
+		"empty_state_cta": "Esplora gli itinerari!"
 	}
 }
