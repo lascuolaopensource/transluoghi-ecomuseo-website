@@ -3,6 +3,8 @@ import {
 	JWTAuthentication,
 	loginOperation,
 	logoutOperation,
+	refreshOperation,
+	resetPasswordOperation,
 	type AuthStrategy,
 	type Endpoint,
 	type Payload,
@@ -143,6 +145,78 @@ export const socialAccountLogoutEndpoint: Endpoint = {
 				}),
 				status: 200,
 			},
+		)
+	},
+}
+
+// Payload's refresh and reset-password handlers always Set-Cookie payload-token.
+// These keep the social session on its own cookie, the same as login and logout.
+export const socialAccountRefreshEndpoint: Endpoint = {
+	path: '/refresh-token',
+	method: 'post',
+	handler: async (req) => {
+		const collection = req.payload.collections[socialAccountSlug]
+		const user = await readSocialAccountUser({
+			headers: req.headers,
+			payload: req.payload,
+			req,
+		})
+		if (!user) throw new APIError('No User', 403)
+
+		req.user = user
+		const result = await refreshOperation({
+			collection,
+			req,
+		})
+		const { refreshedToken, ...resultWithoutToken } = result
+		const headers = new Headers()
+		if (result.setCookie && refreshedToken) {
+			headers.set(
+				'Set-Cookie',
+				socialAccountSessionCookie(collection.config.auth, req.payload.config.cookiePrefix, refreshedToken),
+			)
+		}
+		const body = collection.config.auth.removeTokenFromResponses
+			? resultWithoutToken
+			: { ...resultWithoutToken, refreshedToken }
+		return Response.json(
+			{
+				message: req.t('authentication:tokenRefreshSuccessful'),
+				...body,
+			},
+			{ headers, status: 200 },
+		)
+	},
+}
+
+export const socialAccountResetPasswordEndpoint: Endpoint = {
+	path: '/reset-password',
+	method: 'post',
+	handler: async (req) => {
+		const collection = req.payload.collections[socialAccountSlug]
+		const result = await resetPasswordOperation({
+			collection,
+			data: {
+				password: typeof req.data?.password === 'string' ? req.data.password : '',
+				token: typeof req.data?.token === 'string' ? req.data.token : '',
+			},
+			depth: depthFrom(req),
+			req,
+		})
+		const headers = new Headers()
+		if (result.token) {
+			headers.set(
+				'Set-Cookie',
+				socialAccountSessionCookie(collection.config.auth, req.payload.config.cookiePrefix, result.token),
+			)
+		}
+		if (collection.config.auth.removeTokenFromResponses) delete result.token
+		return Response.json(
+			{
+				message: req.t('authentication:passwordResetSuccessfully'),
+				...result,
+			},
+			{ headers, status: 200 },
 		)
 	},
 }

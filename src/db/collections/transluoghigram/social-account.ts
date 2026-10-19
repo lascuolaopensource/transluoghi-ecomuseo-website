@@ -5,6 +5,8 @@ import {
 	socialAccountCookieStrategy,
 	socialAccountLoginEndpoint,
 	socialAccountLogoutEndpoint,
+	socialAccountRefreshEndpoint,
+	socialAccountResetPasswordEndpoint,
 } from '@/db/social-account-session'
 import { CollectionGroup } from '@/db/utils'
 
@@ -47,7 +49,12 @@ export const SocialAccount: CollectionConfig = {
 		cookies: authCookies,
 		strategies: [socialAccountCookieStrategy],
 	},
-	endpoints: [socialAccountLoginEndpoint, socialAccountLogoutEndpoint],
+	endpoints: [
+		socialAccountLoginEndpoint,
+		socialAccountLogoutEndpoint,
+		socialAccountRefreshEndpoint,
+		socialAccountResetPasswordEndpoint,
+	],
 
 	fields: [
 		{
