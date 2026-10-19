@@ -175,33 +175,28 @@ function isWebp(bytes: Buffer) {
 	)
 }
 
+// Major brands that mean video/mp4. Unknown ftyp brands are rejected.
+const mp4Brands = new Set([
+	'isom',
+	'iso2',
+	'iso3',
+	'iso4',
+	'iso5',
+	'iso6',
+	'mp41',
+	'mp42',
+	'avc1',
+	'mp4v',
+	'dash',
+	'msdh',
+])
+
 function isMp4(bytes: Buffer) {
 	if (bytes.subarray(4, 8).toString('ascii') != 'ftyp') return false
 	if ((bytes[8]! & 0x60) == 0) return false
 
-	const brand = bytes.subarray(8, 12).toString('latin1').replace('\0', ' ').trim()
-	switch (brand) {
-		case 'avif':
-		case 'avis':
-		case 'mif1':
-		case 'msf1':
-		case 'heic':
-		case 'heix':
-		case 'hevc':
-		case 'hevx':
-		case 'qt':
-		case 'M4V':
-		case 'M4VH':
-		case 'M4VP':
-		case 'M4B':
-		case 'M4A':
-		case 'F4A':
-		case 'F4B':
-		case 'crx':
-			return false
-		default:
-			return !brand.startsWith('3g')
-	}
+	const brand = bytes.subarray(8, 12).toString('latin1').replaceAll('\0', ' ').trim()
+	return mp4Brands.has(brand)
 }
 
 function isWebm(bytes: Buffer) {
