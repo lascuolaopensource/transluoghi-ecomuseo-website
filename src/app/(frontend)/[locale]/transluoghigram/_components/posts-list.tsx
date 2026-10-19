@@ -16,16 +16,18 @@ import { Post } from '../_partials/post'
 
 type PostsListProps = {
 	initialData?: SocialPost[]
+	initialHasNextPage?: boolean
 }
 
 export function PostsList(props: PostsListProps) {
-	const { initialData } = props
+	const { initialData, initialHasNextPage } = props
 
 	const { loading, items, hasNextPage, error, loadMore } = useLoadItems({
 		sort: '-createdAt',
 		depth: 2,
 		limit: 10,
 		initialData,
+		initialHasNextPage,
 	})
 
 	const [sentryRef] = useInfiniteScroll({

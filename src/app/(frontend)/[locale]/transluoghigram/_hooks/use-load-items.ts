@@ -14,6 +14,7 @@ type UseLoadItemsOptions = {
 	sort?: string
 	depth?: number
 	initialData?: SocialPost[]
+	initialHasNextPage?: boolean
 	initialPage?: number
 }
 
@@ -26,17 +27,20 @@ type UseLoadItemsReturn = {
 }
 
 export function useLoadItems(options: UseLoadItemsOptions = {}): UseLoadItemsReturn {
-	const { limit = 10, sort, depth, initialData, initialPage = 1 } = options
+	const { limit = 10, sort, depth, initialData, initialHasNextPage, initialPage = 1 } = options
 
-	// If initialData is provided, we already have page 1, so start at page 2
-	const startingPage = initialData ? initialPage + 1 : initialPage
+	// `[]` is truthy — only skip the first client fetch when SSR actually provided page 1.
+	const hasInitialPage = initialData !== undefined
+	const startingPage = hasInitialPage ? initialPage + 1 : initialPage
+	const startingHasNextPage =
+		initialHasNextPage ?? (hasInitialPage ? initialData.length >= limit : true)
 
 	const [items, setItems] = useState<SocialPost[]>(initialData ?? [])
 	const [loading, setLoading] = useState(false)
 	const [error, setError] = useState<Error | null>(null)
-	const [hasNextPage, setHasNextPage] = useState(true)
+	const [hasNextPage, setHasNextPage] = useState(startingHasNextPage)
 	const [page, setPage] = useState(startingPage)
-	const [initialLoad, setInitialLoad] = useState(!initialData)
+	const [initialLoad, setInitialLoad] = useState(!hasInitialPage)
 
 	// Store values in refs to avoid recreating loadMore callback
 	const loadingRef = useRef(loading)
