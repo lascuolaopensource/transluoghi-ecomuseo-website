@@ -3,7 +3,7 @@
 import { zfd } from 'zod-form-data'
 import z from 'zod/v4'
 
-import { SocialMedia } from '@/db/collections/transluoghigram/social-media'
+import { SocialMedia, socialMediaMaxBytes } from '@/db/collections/transluoghigram/social-media'
 import { DatabaseKey } from '@/modules/utils'
 import { getDb } from '@/modules/utils/server'
 
@@ -15,7 +15,7 @@ import { validateUser } from './utils'
 const schema = zfd.formData({
 	text: zfd.text(),
 	link: zfd.text(z.nullish(z.url())),
-	media: zfd.file(z.nullish(z.file().mime(SocialMedia.upload.mimeTypes).max(5000000))),
+	media: zfd.file(z.nullish(z.file().mime(SocialMedia.upload.mimeTypes).max(socialMediaMaxBytes))),
 })
 
 export type CreatePostData = z.infer<typeof schema>

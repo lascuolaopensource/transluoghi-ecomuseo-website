@@ -4,7 +4,7 @@ import { hasCmsUser, isSocialAccount } from '@/db/access'
 
 //
 
-export function ownerKey(owner: unknown) {
+function ownerKey(owner: unknown) {
 	if (typeof owner === 'object' && owner !== null && 'id' in owner) {
 		return String(owner.id)
 	}

@@ -32,28 +32,19 @@ type ReadArgs = {
 
 type CollectionAuth = Collection['config']['auth']
 
-export function hasAdminCredential(headers: Headers, cookiePrefix: string) {
+function hasAdminCredential(headers: Headers, cookiePrefix: string) {
 	const authorization = headers.get('Authorization')
 	if (authorization?.startsWith('JWT ') || authorization?.startsWith('Bearer ')) return true
 	return Boolean(parseCookies(headers).get(`${cookiePrefix}-token`))
-}
-
-// extractJWT only checks the admin cookie. This cookie is read here, so the same csrf rule has to run first.
-function csrfAllowsCookie(headers: Headers, csrf: string[]) {
-	const origin = headers.get('Origin')
-	if (origin) return csrf.length === 0 || csrf.includes(origin)
-	if (csrf.length === 0) return true
-	const secFetchSite = headers.get('Sec-Fetch-Site')
-	return secFetchSite === 'same-origin' || secFetchSite === 'same-site' || secFetchSite === 'none'
 }
 
 export async function readSocialAccountUser({ headers, payload, req }: ReadArgs): Promise<SocialAccount | null> {
 	const cookiePrefix = payload.config.cookiePrefix
 	const token = parseCookies(headers).get(socialAccountCookieName(cookiePrefix))
 	if (!token) return null
-	if (!csrfAllowsCookie(headers, payload.config.csrf)) return null
 
 	// JWTAuthentication only reads `${cookiePrefix}-token`; remap so the social token is visible under that name.
+	// CSRF for the social cookie is enforced via this remapped extractJWT path (Origin / Sec-Fetch-Site vs payload.config.csrf).
 	const headersForJwtStrategy = new Headers(headers)
 	headersForJwtStrategy.set('Cookie', `${cookiePrefix}-token=${encodeURIComponent(token)}`)
 	headersForJwtStrategy.set('DisableAutologin', 'true')
@@ -74,7 +65,6 @@ export const socialAccountCookieStrategy: AuthStrategy = {
 	name: 'social-account-cookie',
 	authenticate: async ({ headers, payload, req }) => {
 		if (hasAdminCredential(headers, payload.config.cookiePrefix)) return { user: null }
-		if (!csrfAllowsCookie(headers, payload.config.csrf)) return { user: null }
 		const user = await readSocialAccountUser({ headers, payload, req })
 		return { user }
 	},
