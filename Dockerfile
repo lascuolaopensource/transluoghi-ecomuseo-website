@@ -1,5 +1,6 @@
-# Optimized Dockerfile with standalone output
-# 3-stage build: deps -> builder -> runner
+# Production image for Coolify (and similar hosts).
+# Local DB/storage: use docker-compose.dev.yml + `pnpm compose:up` — not this file.
+# Requires next.config `output: 'standalone'`.
 # Pin pnpm explicitly — bare `corepack enable pnpm` can pull a broken latest (e.g. 12.x).
 
 FROM node:22.17.0-alpine AS base

@@ -5,7 +5,7 @@ const skipTypecheck = process.env.SKIP_TYPECHECK === '1'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'standalone', // Uncomment for optimized Dockerfile
+	output: 'standalone', // Required by the production Dockerfile / Coolify image
 	// Set SKIP_TYPECHECK=1 at build time (Coolify build env) to skip tsc during `next build`.
 	typescript: {
 		ignoreBuildErrors: skipTypecheck,

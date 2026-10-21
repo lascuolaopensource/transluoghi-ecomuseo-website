@@ -1,0 +1,25 @@
+# Keep Coolify / Dockerfile builds lean. Compose is not used in production.
+.git
+.github
+.next
+.vscode
+node_modules
+pnpm-store
+.pnpm-store
+coverage
+test-results
+playwright-report
+blob-report
+docs
+AGENTS.md
+*.md
+!README.md
+.env
+.env.*
+!.env.example
+test.env
+docker-compose*.yml
+docker-compose*.yaml
+media
+.tmp
+**/*.tsbuildinfo
