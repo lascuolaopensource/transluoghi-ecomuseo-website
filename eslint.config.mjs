@@ -1,17 +1,11 @@
-import { FlatCompat } from '@eslint/eslintrc'
+import nextVitals from 'eslint-config-next/core-web-vitals'
+import nextTs from 'eslint-config-next/typescript'
 import perfectionist from 'eslint-plugin-perfectionist'
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
+import { defineConfig, globalIgnores } from 'eslint/config'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const compat = new FlatCompat({
-	baseDirectory: __dirname,
-})
-
-const eslintConfig = [
-	...compat.extends('next/core-web-vitals', 'next/typescript'),
+const eslintConfig = defineConfig([
+	...nextVitals,
+	...nextTs,
 	{
 		rules: {
 			'@typescript-eslint/ban-ts-comment': 'warn',
@@ -31,15 +25,16 @@ const eslintConfig = [
 			],
 		},
 	},
-	{
-		ignores: [
-			'.next/',
-			'src/app/(payload)/',
-			'src/modules/components/shadcn/',
-			'src/db/seed/',
-			'src/db/migrations/',
-		],
-	},
+	globalIgnores([
+		'.next/**',
+		'out/**',
+		'build/**',
+		'next-env.d.ts',
+		'src/app/(payload)/',
+		'src/modules/components/shadcn/',
+		'src/db/seed/',
+		'src/db/migrations/',
+	]),
 	{
 		plugins: {
 			perfectionist,
@@ -48,6 +43,6 @@ const eslintConfig = [
 			'perfectionist/sort-imports': 'error',
 		},
 	},
-]
+])
 
 export default eslintConfig
