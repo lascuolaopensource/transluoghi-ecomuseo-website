@@ -1,7 +1,7 @@
 {
 	"name": "morigerati",
 	"version": "1.0.0",
-	"description": "A blank template to get started with Payload 3.0",
+	"description": "Transluoghi ecomuseo website (Payload + Next.js)",
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
@@ -11,6 +11,7 @@
 		"generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
 		"generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
 		"lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
+		"lint:fix": "cross-env NODE_OPTIONS=--no-deprecation eslint . --fix",
 		"payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
 		"start": "cross-env NODE_OPTIONS=--no-deprecation next start",
 		"test": "pnpm run test:int && pnpm run test:e2e",
@@ -76,7 +77,6 @@
 		"zod-form-data": "^3.0.1"
 	},
 	"devDependencies": {
-		"@eslint/eslintrc": "^3.3.1",
 		"@faker-js/faker": "^10.1.0",
 		"@next/eslint-plugin-next": "16.4.2",
 		"@playwright/test": "1.54.1",
@@ -102,7 +102,7 @@
 	"packageManager": "pnpm@9.15.9",
 	"engines": {
 		"node": ">=20.18.1",
-		"pnpm": "^9 || ^10"
+		"pnpm": "^9 || ^10 || ^11"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
