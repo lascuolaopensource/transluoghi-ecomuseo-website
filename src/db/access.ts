@@ -8,7 +8,9 @@ export function hasCmsUser(user: MaybeUser): user is TypedUser & { collection: '
 	return user?.collection === 'users'
 }
 
-export function isSocialAccount(user: MaybeUser): user is TypedUser & { collection: 'social-account' } {
+export function isSocialAccount(
+	user: MaybeUser,
+): user is TypedUser & { collection: 'social-account' } {
 	return user?.collection == 'social-account'
 }
 

@@ -39,7 +39,11 @@ function hasAdminCredential(headers: Headers, cookiePrefix: string) {
 	return Boolean(parseCookies(headers).get(`${cookiePrefix}-token`))
 }
 
-export async function readSocialAccountUser({ headers, payload, req }: ReadArgs): Promise<SocialAccount | null> {
+export async function readSocialAccountUser({
+	headers,
+	payload,
+	req,
+}: ReadArgs): Promise<SocialAccount | null> {
 	const cookiePrefix = payload.config.cookiePrefix
 	const token = parseCookies(headers).get(socialAccountCookieName(cookiePrefix))
 	if (!token) return null
@@ -104,7 +108,11 @@ function socialAuthJsonResponse({
 	return Response.json({ message, ...body }, { headers, status })
 }
 
-function socialAuthClearedCookieResponse(message: string, auth: CollectionAuth, cookiePrefix: string) {
+function socialAuthClearedCookieResponse(
+	message: string,
+	auth: CollectionAuth,
+	cookiePrefix: string,
+) {
 	return Response.json(
 		{ message },
 		{

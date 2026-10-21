@@ -1,2219 +1,2219 @@
 [
-  {
-    "_id": "682604359684ecc0f8cfa130",
-    "createdAt": "2025-05-15T15:11:49.655Z",
-    "updatedAt": "2025-05-18T19:37:54.752Z",
-    "nome": "Itinerario 1 - Paesaggio culturale dell'acqua",
-    "lunghezza": 5.8,
-    "tempo": 3,
-    "dislivello": "300m (salita) - 300m (discesa)",
-    "tipo": "Andata e ritorno",
-    "difficolta": "EE - Escursionisti Esperti",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
-        },
-        "id": "68260423203ca98937b4e844"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #1",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Paesaggio culturale dell’acqua",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Un percorso che si snoda dal centro storico di Morigerati e attraversa i luoghi e gli ecosistemi in cui l’acqua e l’uomo hanno segnato e disegnato il paesaggio.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Passando per l’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Antico Frantoio",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - sede dell'Ecomuseo - si discende nel ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "canyon",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", caratterizzato da una fitta vegetazione mediterranea, lungo un ruscello che conta sorgenti, cascate, un ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "antico mulino ad acqua",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " del Settecento e una preziosa ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "stazione di muschi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "; fino ad arrivare alla ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "grotta",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", dove si assiste alla ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "risorgenza del fiume carsico Bussento",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - che dall'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "inghiottitoio di Caselle in Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " si inabissa e percorre il suo misterioso viaggio sotterraneo per riapparire circa 7 km più a sud.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'itinerario prosegue risalendo per un piccolo tratto, e poi si immerge nel sentiero che costeggia il fiume Bussento, guadando il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "sistema di forre",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", fino all’arrivo nella ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "località dell'Isca",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per il ritorno si segue il percorso a ritroso.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "slug": "itinerario-1---paesaggio-culturale-dellacqua",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a35bf6edbd00b4493eb4a",
-    "Video": "682a366e6edbd00b4493ebd8",
-    "galleria": [
-      "682a36926edbd00b4493ebf6",
-      "682a34386edbd00b4493e8be",
-      "682a30f46edbd00b4493e630"
-    ],
-    "tracciato_gpx": "6824ba9fe82ebfbe108367c3"
-  },
-  {
-    "_id": "682606a0c67065dd5adb7375",
-    "createdAt": "2025-05-15T15:22:08.464Z",
-    "updatedAt": "2025-05-18T19:43:32.487Z",
-    "nome": "Itinerario 3 - Via Carsica del geosito del Bussento",
-    "lunghezza": 11.5,
-    "tempo": 5,
-    "dislivello": "623m (salita) - 631m (discesa)",
-    "tipo": "Itinerario ad anello",
-    "difficolta": "EE - Escursionisti Esperti",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
-        },
-        "id": "682606902fac5ae0f87dd8a5"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #3",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Via Carsica del Geosito del Bussento",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Un percorso ad anello di ben 11,5 km, che si snoda dal centro storico di Morigerati e attraversa i luoghi in cui il fenomeno del carsismo ha trasformato maggiormente il paesaggio.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Passando per l’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Antico Frantoio",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - sede dell'Ecomuseo - si discende nel ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "canyon dell'Oasi WWF \"Grotte del Bussento\"",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ": uno dei complessi fluviali più interessanti dell’intero geoparco, dove la forza erosiva del fiume plasma un sistema di forre tale da farvi registrare ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "il secondo fenomeno carsico per estensione della penisola, e il più lungo del sud Italia",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Attraverso una grotta percorribile, l'itinerario prosegue risalendo fino all’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Eremo di San Michele",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", dalla cui terrazza è possibile ammirare la maestosità dell’intero sistema carsico del geosito e l’estensione delle montagne e della costa marina, fino alla Calabria.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Dopo la visita all'Eremo il percorso riscende e, attraverso un ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "anello con viste panoramiche",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", fa ritorno - sempre passando per l'Oasi WWF - al centro del paese.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "slug": "itinerario-3---via-carsica-del-geosito-del-bussento",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a377f6edbd00b4493ecce",
-    "Video": "682a37d06edbd00b4493ecfa",
-    "galleria": [
-      "682a28596edbd00b4493e0bc",
-      "682a33526edbd00b4493e76e",
-      "682a344d6edbd00b4493e8de",
-      "682a31286edbd00b4493e680",
-      "682a38226edbd00b4493ed8d"
-    ],
-    "tracciato_gpx": "682a38606edbd00b4493edbd"
-  },
-  {
-    "_id": "682606d3c67065dd5adb73a7",
-    "createdAt": "2025-05-15T15:22:59.829Z",
-    "updatedAt": "2025-05-18T19:45:33.983Z",
-    "nome": "Itinerario 4 - Via del cibo e delle aziende agricole",
-    "lunghezza": 26,
-    "tempo": 2,
-    "dislivello": "-",
-    "tipo": "Andata e ritorno",
-    "difficolta": "T - Turistico",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
-        },
-        "id": "682606c62fac5ae0f87dd8a6"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #4",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Via del cibo e delle aziende agric",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "ole",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Un percorso ciclabile di circa 26 km andata/ritorno, che si snoda dal centro storico di Morigerati e attraversa le aziende agricole del territorio legate alla produzione di olio, vino, fichi e diverse tipologie di trasformati.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "*I punti vendita e le degustazioni sono disponibili solo su prenotazione.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h4"
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Tappe del percorso:",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h4"
-            },
-            {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Tappa #1: Azienda Agricola Terra Madre",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Degustazione di crostate e confetture",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 9,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "CONTATTI",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " >",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " +39 346 326 5406",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "listitem",
-                  "version": 1,
-                  "textFormat": 1,
-                  "value": 1
-                },
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Tappa #2: Salumificio Cellito",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Punto vendita salumi",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 9,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "CONTATTI",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " >",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " +39 339 533 5733",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "listitem",
-                  "version": 1,
-                  "textFormat": 1,
-                  "value": 2
-                },
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Tappa #3: Azienda Agricola Murikè",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Degustazione di vino e confetture",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 9,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "CONTATTI",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " >",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " +39 348 391 1289",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "listitem",
-                  "version": 1,
-                  "textFormat": 1,
-                  "value": 3
-                },
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Tappa #4: Azienda Agricola Marsicani",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Punto vendita olio e.v.o.",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 9,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "CONTATTI",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " > +39 338 290 6364",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "listitem",
-                  "version": 1,
-                  "textFormat": 1,
-                  "value": 4
-                },
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 1,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Tappa #5: Azienda Agricola Radici",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Degustazione di vino e legumi",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "type": "linebreak",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 9,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "CONTATTI",
-                      "type": "text",
-                      "version": 1
-                    },
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": " > +39 340 146 5132",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "listitem",
-                  "version": 1,
-                  "textFormat": 1,
-                  "value": 5
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "list",
-              "version": 1,
-              "listType": "bullet",
-              "start": 1,
-              "tag": "ul"
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "itinerario-4---via-del-cibo-e-delle-aziende-agricole",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "Video": "682a38bd6edbd00b4493ee7b",
-    "copertina": "682a38c76edbd00b4493ee9d",
-    "tracciato_gpx": "682a38db6edbd00b4493eebb"
-  },
-  {
-    "_id": "682606ffc67065dd5adb73d0",
-    "createdAt": "2025-05-15T15:23:43.526Z",
-    "updatedAt": "2025-05-18T19:48:26.052Z",
-    "nome": "Itinerario 5 - Cammino di San Nilo",
-    "lunghezza": 9.8,
-    "tempo": 4.5,
-    "dislivello": "570m (salita) - 545m (discesa)",
-    "tipo": "Andata e ritorno",
-    "difficolta": "EE - Escursionisti Esperti",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile sia da questo sito che dal sito camminibizantini.com"
-        },
-        "id": "682606f22fac5ae0f87dd8a7"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #5",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Cammino di San Nilo",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "U",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "n percorso a tappe intercomunali, della lunghezza complessiva di circa 105 km, che attraversa 11 comuni e frazioni del basso Cilento - da Sapri a Palinuro - sulle tracce del basiliano San Nilo e delle architetture legate alla sua figura.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il percorso attraversa la tappa di Morigerati nell'ambito",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h4"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 9,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "DELLA TRATTA n.3 | Casaletto Spartano-Morigerati",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ":",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h5"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "segue il corso del ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Bussentino",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", attraversa il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Comune di Tortorella",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "bosco del Farneto",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", e arriva, infine, al ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "ponte medievale di Morigerati",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", concludendosi nel ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "centro storico",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ";",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 9,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "DELLA TRATTA n.4 | Morigerati-Caselle in Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ":",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h5"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "dal ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "centro storico",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", l'itinerario prosegue verso l’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Oasi WWF \"Grotte del Bussento\"",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - dove si assiste alla risorgenza del fiume carsico che, dall'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "inghiottitoio di Caselle in Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", si inabissa e percorre il suo misterioso viaggio sotterraneo per riapparire circa 7 km più a sud.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Attraverso una grotta percorribile, il percorso risale poi fino all’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Eremo di San Michele",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", dalla cui terrazza è possibile ammirare la maestosità dell’intero sistema carsico del geosito del Bussento medio-orientale e l’estensione delle montagne e della costa marina, fino alla Calabria.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Dopo la visita all'Eremo l'itinerario scende di nuovo, verso ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Caselle in Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ". ",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "slug": "itinerario-5---cammino-di-san-nilo",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "tracciato_gpx": "682a39076edbd00b4493ef30",
-    "Video": "682a39596edbd00b4493ef7f",
-    "copertina": "682a393c6edbd00b4493ef5f",
-    "galleria": [
-      "682a28816edbd00b4493e0f0",
-      "682a33626edbd00b4493e78d",
-      "682a34886edbd00b4493e93b",
-      "682a314c6edbd00b4493e6cb",
-      "682a38226edbd00b4493ed8d"
-    ]
-  },
-  {
-    "_id": "6826072bc67065dd5adb73f9",
-    "createdAt": "2025-05-15T15:24:27.057Z",
-    "updatedAt": "2025-05-18T19:52:33.257Z",
-    "nome": "Itinerario 7 - Sentiero Valle della Lontra",
-    "lunghezza": 20,
-    "tempo": 7.5,
-    "dislivello": "1090m (salita), 800m (discesa)",
-    "tipo": "Itinerario ad anello",
-    "difficolta": "EE - Escursionisti Esperti",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
-        },
-        "id": "6826071c2fac5ae0f87dd8a8"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #7",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Sentiero Valle della Lontra",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "U",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "n percorso intercomunale ad anello, della lunghezza complessiva di circa 20 km, che attraversa 4 comuni e frazioni del basso Cilento, sulle tracce della lontra.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il percorso parte dall’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Oasi \"Capelli di Venere\" di Casaletto Spartano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", segue il corso del ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Bussentino",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", attraversa il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Comune di Tortorella",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "bosco del Farneto",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", e arriva, infine, al ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "ponte medievale",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " di Morigerati.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Risale, poi, per arrivare all’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Oasi WWF \"Grotte del Bussento\" ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "- dove si assiste alla risorgenza del fiume carsico che, dall'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "inghiottitoio di Caselle in Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", si inabissa e percorre il suo misterioso viaggio sotterraneo, per riapparire circa 7 km più a sud.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Morigerati è tappa di arrivo e di ripartenza verso Casaletto Spartano.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 1,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per il ritorno, a circa 100 metri da ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Piazza Piano alla Porta",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " l'itinerario segue un percorso ad anello - attraversando il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Cimitero di Morigerati",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "loc. San Menale",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "loc. Sisamo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", e concludendosi nuovamente presso l'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Oasi \"Capelli di Venere\" di Casaletto Spartano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "slug": "itinerario-7---sentiero-valle-della-lontra",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "tracciato_gpx": "682a3a0b6edbd00b4493f139",
-    "copertina": "682a3a5a6edbd00b4493f165"
-  },
-  {
-    "_id": "6826075bc67065dd5adb7422",
-    "createdAt": "2025-05-15T15:25:15.387Z",
-    "updatedAt": "2025-05-18T19:57:32.512Z",
-    "nome": "Itinerario 8 - Luoghi della cultura",
-    "lunghezza": 0.6,
-    "tempo": 0.25,
-    "dislivello": "34m (salita) - 37m (discesa)",
-    "tipo": "Itinerario ad anello",
-    "difficolta": "T - Turistico",
-    "servizi": [
-      {
-        "nome": {
-          "it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
-        },
-        "id": "6826074d2fac5ae0f87dd8a9"
-      }
-    ],
-    "media_geolocalizzati": [],
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Itinerario #8",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h1"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Luoghi della cultura",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h2"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "U",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "n percorso a piedi della lunghezza di circa 600 metri e di tipo T-Turistico, che attraversa i luoghi della cultura del centro storico di Morigerati.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h3"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Antico Frantoio",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - sede dell’Ecomuseo e dell'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "exhibit crossmediale",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " che ne racconta il ricchissimo patrimonio ambientale e culturale; il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Museo Etnografico",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", con la sua esposizione permanente e catalogazione di più di 900 materiali, oggetti, tessuti, strumenti e arnesi propri della civiltà contadina instauratasi attorno al geosito del Bussento medio-orientale; la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Chiesa di San Demetrio",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "; il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Palazzo Baronale",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "; la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Chiesetta della Madonna delle Grazie",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "justify",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "slug": "itinerario-8---luoghi-della-cultura",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "Video": "682a3b6c6edbd00b4493f1e4",
-    "copertina": "682a3ac56edbd00b4493f1b9",
-    "galleria": [
-      "682a3b856edbd00b4493f201",
-      "682a2dd06edbd00b4493e3a6",
-      "682a2a256edbd00b4493e206"
-    ],
-    "tracciato_gpx": "682a3aac6edbd00b4493f199"
-  }
+	{
+		"_id": "682604359684ecc0f8cfa130",
+		"createdAt": "2025-05-15T15:11:49.655Z",
+		"updatedAt": "2025-05-18T19:37:54.752Z",
+		"nome": "Itinerario 1 - Paesaggio culturale dell'acqua",
+		"lunghezza": 5.8,
+		"tempo": 3,
+		"dislivello": "300m (salita) - 300m (discesa)",
+		"tipo": "Andata e ritorno",
+		"difficolta": "EE - Escursionisti Esperti",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
+				},
+				"id": "68260423203ca98937b4e844"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #1",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "Paesaggio culturale dell’acqua",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Un percorso che si snoda dal centro storico di Morigerati e attraversa i luoghi e gli ecosistemi in cui l’acqua e l’uomo hanno segnato e disegnato il paesaggio.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Passando per l’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Antico Frantoio",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - sede dell'Ecomuseo - si discende nel ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "canyon",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", caratterizzato da una fitta vegetazione mediterranea, lungo un ruscello che conta sorgenti, cascate, un ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "antico mulino ad acqua",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " del Settecento e una preziosa ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "stazione di muschi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "; fino ad arrivare alla ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "grotta",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", dove si assiste alla ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "risorgenza del fiume carsico Bussento",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - che dall'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "inghiottitoio di Caselle in Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " si inabissa e percorre il suo misterioso viaggio sotterraneo per riapparire circa 7 km più a sud.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'itinerario prosegue risalendo per un piccolo tratto, e poi si immerge nel sentiero che costeggia il fiume Bussento, guadando il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "sistema di forre",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", fino all’arrivo nella ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "località dell'Isca",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per il ritorno si segue il percorso a ritroso.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"slug": "itinerario-1---paesaggio-culturale-dellacqua",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a35bf6edbd00b4493eb4a",
+		"Video": "682a366e6edbd00b4493ebd8",
+		"galleria": [
+			"682a36926edbd00b4493ebf6",
+			"682a34386edbd00b4493e8be",
+			"682a30f46edbd00b4493e630"
+		],
+		"tracciato_gpx": "6824ba9fe82ebfbe108367c3"
+	},
+	{
+		"_id": "682606a0c67065dd5adb7375",
+		"createdAt": "2025-05-15T15:22:08.464Z",
+		"updatedAt": "2025-05-18T19:43:32.487Z",
+		"nome": "Itinerario 3 - Via Carsica del geosito del Bussento",
+		"lunghezza": 11.5,
+		"tempo": 5,
+		"dislivello": "623m (salita) - 631m (discesa)",
+		"tipo": "Itinerario ad anello",
+		"difficolta": "EE - Escursionisti Esperti",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
+				},
+				"id": "682606902fac5ae0f87dd8a5"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #3",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "Via Carsica del Geosito del Bussento",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Un percorso ad anello di ben 11,5 km, che si snoda dal centro storico di Morigerati e attraversa i luoghi in cui il fenomeno del carsismo ha trasformato maggiormente il paesaggio.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Passando per l’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Antico Frantoio",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - sede dell'Ecomuseo - si discende nel ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "canyon dell'Oasi WWF \"Grotte del Bussento\"",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ": uno dei complessi fluviali più interessanti dell’intero geoparco, dove la forza erosiva del fiume plasma un sistema di forre tale da farvi registrare ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "il secondo fenomeno carsico per estensione della penisola, e il più lungo del sud Italia",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Attraverso una grotta percorribile, l'itinerario prosegue risalendo fino all’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Eremo di San Michele",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", dalla cui terrazza è possibile ammirare la maestosità dell’intero sistema carsico del geosito e l’estensione delle montagne e della costa marina, fino alla Calabria.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Dopo la visita all'Eremo il percorso riscende e, attraverso un ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "anello con viste panoramiche",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", fa ritorno - sempre passando per l'Oasi WWF - al centro del paese.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"slug": "itinerario-3---via-carsica-del-geosito-del-bussento",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a377f6edbd00b4493ecce",
+		"Video": "682a37d06edbd00b4493ecfa",
+		"galleria": [
+			"682a28596edbd00b4493e0bc",
+			"682a33526edbd00b4493e76e",
+			"682a344d6edbd00b4493e8de",
+			"682a31286edbd00b4493e680",
+			"682a38226edbd00b4493ed8d"
+		],
+		"tracciato_gpx": "682a38606edbd00b4493edbd"
+	},
+	{
+		"_id": "682606d3c67065dd5adb73a7",
+		"createdAt": "2025-05-15T15:22:59.829Z",
+		"updatedAt": "2025-05-18T19:45:33.983Z",
+		"nome": "Itinerario 4 - Via del cibo e delle aziende agricole",
+		"lunghezza": 26,
+		"tempo": 2,
+		"dislivello": "-",
+		"tipo": "Andata e ritorno",
+		"difficolta": "T - Turistico",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
+				},
+				"id": "682606c62fac5ae0f87dd8a6"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #4",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Via del cibo e delle aziende agric",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "ole",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Un percorso ciclabile di circa 26 km andata/ritorno, che si snoda dal centro storico di Morigerati e attraversa le aziende agricole del territorio legate alla produzione di olio, vino, fichi e diverse tipologie di trasformati.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "*I punti vendita e le degustazioni sono disponibili solo su prenotazione.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h4"
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Tappe del percorso:",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h4"
+						},
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": "Tappa #1: Azienda Agricola Terra Madre",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Degustazione di crostate e confetture",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 9,
+											"mode": "normal",
+											"style": "",
+											"text": "CONTATTI",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": " >",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": " +39 346 326 5406",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "listitem",
+									"version": 1,
+									"textFormat": 1,
+									"value": 1
+								},
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": "Tappa #2: Salumificio Cellito",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Punto vendita salumi",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 9,
+											"mode": "normal",
+											"style": "",
+											"text": "CONTATTI",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": " >",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": " +39 339 533 5733",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "listitem",
+									"version": 1,
+									"textFormat": 1,
+									"value": 2
+								},
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": "Tappa #3: Azienda Agricola Murikè",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Degustazione di vino e confetture",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 9,
+											"mode": "normal",
+											"style": "",
+											"text": "CONTATTI",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": " >",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": " +39 348 391 1289",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "listitem",
+									"version": 1,
+									"textFormat": 1,
+									"value": 3
+								},
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": "Tappa #4: Azienda Agricola Marsicani",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Punto vendita olio e.v.o.",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 9,
+											"mode": "normal",
+											"style": "",
+											"text": "CONTATTI",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": " > +39 338 290 6364",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "listitem",
+									"version": 1,
+									"textFormat": 1,
+									"value": 4
+								},
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 1,
+											"mode": "normal",
+											"style": "",
+											"text": "Tappa #5: Azienda Agricola Radici",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Degustazione di vino e legumi",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"type": "linebreak",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 9,
+											"mode": "normal",
+											"style": "",
+											"text": "CONTATTI",
+											"type": "text",
+											"version": 1
+										},
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": " > +39 340 146 5132",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "listitem",
+									"version": 1,
+									"textFormat": 1,
+									"value": 5
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "list",
+							"version": 1,
+							"listType": "bullet",
+							"start": 1,
+							"tag": "ul"
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "itinerario-4---via-del-cibo-e-delle-aziende-agricole",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"Video": "682a38bd6edbd00b4493ee7b",
+		"copertina": "682a38c76edbd00b4493ee9d",
+		"tracciato_gpx": "682a38db6edbd00b4493eebb"
+	},
+	{
+		"_id": "682606ffc67065dd5adb73d0",
+		"createdAt": "2025-05-15T15:23:43.526Z",
+		"updatedAt": "2025-05-18T19:48:26.052Z",
+		"nome": "Itinerario 5 - Cammino di San Nilo",
+		"lunghezza": 9.8,
+		"tempo": 4.5,
+		"dislivello": "570m (salita) - 545m (discesa)",
+		"tipo": "Andata e ritorno",
+		"difficolta": "EE - Escursionisti Esperti",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile sia da questo sito che dal sito camminibizantini.com"
+				},
+				"id": "682606f22fac5ae0f87dd8a7"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #5",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "Cammino di San Nilo",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "U",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "n percorso a tappe intercomunali, della lunghezza complessiva di circa 105 km, che attraversa 11 comuni e frazioni del basso Cilento - da Sapri a Palinuro - sulle tracce del basiliano San Nilo e delle architetture legate alla sua figura.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Il percorso attraversa la tappa di Morigerati nell'ambito",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h4"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "> ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 9,
+									"mode": "normal",
+									"style": "",
+									"text": "DELLA TRATTA n.3 | Casaletto Spartano-Morigerati",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": ":",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h5"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "segue il corso del ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Bussentino",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", attraversa il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Comune di Tortorella",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "bosco del Farneto",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", e arriva, infine, al ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "ponte medievale di Morigerati",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", concludendosi nel ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "centro storico",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ";",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "> ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 9,
+									"mode": "normal",
+									"style": "",
+									"text": "DELLA TRATTA n.4 | Morigerati-Caselle in Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": ":",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h5"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "dal ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "centro storico",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", l'itinerario prosegue verso l’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Oasi WWF \"Grotte del Bussento\"",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - dove si assiste alla risorgenza del fiume carsico che, dall'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "inghiottitoio di Caselle in Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", si inabissa e percorre il suo misterioso viaggio sotterraneo per riapparire circa 7 km più a sud.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Attraverso una grotta percorribile, il percorso risale poi fino all’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Eremo di San Michele",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", dalla cui terrazza è possibile ammirare la maestosità dell’intero sistema carsico del geosito del Bussento medio-orientale e l’estensione delle montagne e della costa marina, fino alla Calabria.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Dopo la visita all'Eremo l'itinerario scende di nuovo, verso ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Caselle in Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ". ",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"slug": "itinerario-5---cammino-di-san-nilo",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"tracciato_gpx": "682a39076edbd00b4493ef30",
+		"Video": "682a39596edbd00b4493ef7f",
+		"copertina": "682a393c6edbd00b4493ef5f",
+		"galleria": [
+			"682a28816edbd00b4493e0f0",
+			"682a33626edbd00b4493e78d",
+			"682a34886edbd00b4493e93b",
+			"682a314c6edbd00b4493e6cb",
+			"682a38226edbd00b4493ed8d"
+		]
+	},
+	{
+		"_id": "6826072bc67065dd5adb73f9",
+		"createdAt": "2025-05-15T15:24:27.057Z",
+		"updatedAt": "2025-05-18T19:52:33.257Z",
+		"nome": "Itinerario 7 - Sentiero Valle della Lontra",
+		"lunghezza": 20,
+		"tempo": 7.5,
+		"dislivello": "1090m (salita), 800m (discesa)",
+		"tipo": "Itinerario ad anello",
+		"difficolta": "EE - Escursionisti Esperti",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
+				},
+				"id": "6826071c2fac5ae0f87dd8a8"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #7",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "Sentiero Valle della Lontra",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "U",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "n percorso intercomunale ad anello, della lunghezza complessiva di circa 20 km, che attraversa 4 comuni e frazioni del basso Cilento, sulle tracce della lontra.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il percorso parte dall’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Oasi \"Capelli di Venere\" di Casaletto Spartano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", segue il corso del ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Bussentino",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", attraversa il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Comune di Tortorella",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "bosco del Farneto",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", e arriva, infine, al ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "ponte medievale",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " di Morigerati.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Risale, poi, per arrivare all’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Oasi WWF \"Grotte del Bussento\" ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "- dove si assiste alla risorgenza del fiume carsico che, dall'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "inghiottitoio di Caselle in Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", si inabissa e percorre il suo misterioso viaggio sotterraneo, per riapparire circa 7 km più a sud.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Morigerati è tappa di arrivo e di ripartenza verso Casaletto Spartano.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 1,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per il ritorno, a circa 100 metri da ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Piazza Piano alla Porta",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " l'itinerario segue un percorso ad anello - attraversando il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Cimitero di Morigerati",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "loc. San Menale",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "loc. Sisamo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", e concludendosi nuovamente presso l'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Oasi \"Capelli di Venere\" di Casaletto Spartano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"slug": "itinerario-7---sentiero-valle-della-lontra",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"tracciato_gpx": "682a3a0b6edbd00b4493f139",
+		"copertina": "682a3a5a6edbd00b4493f165"
+	},
+	{
+		"_id": "6826075bc67065dd5adb7422",
+		"createdAt": "2025-05-15T15:25:15.387Z",
+		"updatedAt": "2025-05-18T19:57:32.512Z",
+		"nome": "Itinerario 8 - Luoghi della cultura",
+		"lunghezza": 0.6,
+		"tempo": 0.25,
+		"dislivello": "34m (salita) - 37m (discesa)",
+		"tipo": "Itinerario ad anello",
+		"difficolta": "T - Turistico",
+		"servizi": [
+			{
+				"nome": {
+					"it": "L'itinerario può essere percorso in completa autonomia, grazie alla segnaletica installata lungo il percorso e alla traccia GPX scaricabile."
+				},
+				"id": "6826074d2fac5ae0f87dd8a9"
+			}
+		],
+		"media_geolocalizzati": [],
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Itinerario #8",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h1"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "Luoghi della cultura",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h2"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "U",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "n percorso a piedi della lunghezza di circa 600 metri e di tipo T-Turistico, che attraversa i luoghi della cultura del centro storico di Morigerati.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h3"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Antico Frantoio",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - sede dell’Ecomuseo e dell'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "exhibit crossmediale",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " che ne racconta il ricchissimo patrimonio ambientale e culturale; il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Museo Etnografico",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", con la sua esposizione permanente e catalogazione di più di 900 materiali, oggetti, tessuti, strumenti e arnesi propri della civiltà contadina instauratasi attorno al geosito del Bussento medio-orientale; la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Chiesa di San Demetrio",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "; il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Palazzo Baronale",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "; la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Chiesetta della Madonna delle Grazie",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "justify",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"slug": "itinerario-8---luoghi-della-cultura",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"Video": "682a3b6c6edbd00b4493f1e4",
+		"copertina": "682a3ac56edbd00b4493f1b9",
+		"galleria": [
+			"682a3b856edbd00b4493f201",
+			"682a2dd06edbd00b4493e3a6",
+			"682a2a256edbd00b4493e206"
+		],
+		"tracciato_gpx": "682a3aac6edbd00b4493f199"
+	}
 ]

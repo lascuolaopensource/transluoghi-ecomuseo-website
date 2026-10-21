@@ -12,12 +12,12 @@ Questo login è diverso da quello di Transluoghigram. Un account social non entr
 
 ## Campi
 
-| Campo | A cosa serve |
-| --- | --- |
-| **Name** | Nome visibile sui post. È obbligatorio. |
-| **Email** | Serve per entrare. Non compare nel feed pubblico. |
-| **Password** | La imposti tu. Al login deve essere lunga da 8 a 100 caratteri. |
-| **Persona** | Collegamento opzionale a una scheda Persone. Non è necessario per pubblicare. |
+| Campo        | A cosa serve                                                                  |
+| ------------ | ----------------------------------------------------------------------------- |
+| **Name**     | Nome visibile sui post. È obbligatorio.                                       |
+| **Email**    | Serve per entrare. Non compare nel feed pubblico.                             |
+| **Password** | La imposti tu. Al login deve essere lunga da 8 a 100 caratteri.               |
+| **Persona**  | Collegamento opzionale a una scheda Persone. Non è necessario per pubblicare. |
 
 Consegna alla persona email, password e l’indirizzo di accesso. L’indirizzo non è nel menu del sito:
 

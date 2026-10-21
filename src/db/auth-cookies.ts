@@ -38,7 +38,11 @@ function socialAccountCookieInput(
 }
 
 // Same flags as the admin cookie (including Secure from `authCookies`), different name.
-export function socialAccountSessionCookie(auth: CollectionAuth, cookiePrefix: string, token: string) {
+export function socialAccountSessionCookie(
+	auth: CollectionAuth,
+	cookiePrefix: string,
+	token: string,
+) {
 	return generateCookie<false>({
 		...socialAccountCookieInput(
 			auth,

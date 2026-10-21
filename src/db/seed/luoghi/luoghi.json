@@ -1,3225 +1,3189 @@
 [
-  {
-    "_id": "6826014c9684ecc0f8cf9e91",
-    "createdAt": "2025-05-15T14:59:24.916Z",
-    "updatedAt": "2025-05-15T16:21:31.505Z",
-    "nome": "Eremo di San Michele",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.15402,
-        15.5454
-      ]
-    },
-    "servizi": [],
-    "contatti": [],
-    "testo": {
-      "en": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "en",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      },
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il santuario, situato sul ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "monte Pittari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", comprende la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Grotta di San Michele",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " e la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Grotta dell’Angelo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ". Sebbene distinte nel nome, le due grotte condividono una serie di funzioni religiose e si affacciano sulla risorgiva dell’Oasi WWF \"Grotte del Bussento\" di Morigerati. Davanti a entrambe si trova un piazzale ottocentesco in muratura.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "La ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Grotta di San Michele",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", dallo sviluppo orizzontale, è accessibile tramite un cancello in ferro che conduce a una galleria lunga circa 10 metri. Alla fine della galleria, si dispiega una sala irregolare con pareti concrezionate e una colonna naturale al centro, alla quale è addossato un altare votivo, simile alla navata di un’antica chiesa. Qui si trovano una vasca lustrale, ruderi di opere murarie e un bassorilievo del XII secolo, posto accanto all’altare.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "La ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Grotta dell’Angelo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " si estende per 49 metri, con un ingresso chiuso da un cancelletto. All'ingresso è visibile un piccolo altare votivo con degli angeli. Il percorso presenta un’ampia curva e termina verso nord.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "eremo-di-san-michele",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Accesso libero, sempre visitabile.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "copertina": "68261190c67065dd5adb7ce4",
-    "galleria": [
-      "682612e5c67065dd5adb7d75",
-      "68261190c67065dd5adb7ce4",
-      "68261377c67065dd5adb7e85",
-      "68261397c67065dd5adb7eab",
-      "682613d9c67065dd5adb7f22",
-      "6826143fc67065dd5adb7fd3",
-      "6826141ec67065dd5adb7f9f"
-    ],
-    "Itinerari_relation": [
-      "682606ffc67065dd5adb73d0",
-      "682606a0c67065dd5adb7375"
-    ]
-  },
-  {
-    "_id": "682602409684ecc0f8cf9fa0",
-    "createdAt": "2025-05-15T15:03:28.528Z",
-    "updatedAt": "2025-05-18T18:33:16.460Z",
-    "nome": "Ferriera",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.138516,
-        15.560774
-      ]
-    },
-    "servizi": [],
-    "contatti": [],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Accesso libero, sempre visitabile",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "La ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Ferriera di Valle della Corte",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", a Morigerati, è considerata uno degli esempi più interessanti di archeologia industriale del territorio cilentano.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "È stata realizzata intorno alla metà del diciannovesimo secolo e utilizzata per lavorare e trasformare il ferro. Si tratta di un grande esempio di archeologia proto-industriale, con oltre 450 metri quadrati di superficie, fino a poco tempo fa sepolto da circa tre metri di terra e camuffato da una fitta macchia mediterranea. Un tesoro, disposto su due corpi di fabbrica, venuto alla luce solo qualche anno fa.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "A poche centinaia di metri, un canale artificiale derivava l’acqua del fiume verso il corpo inferiore della ferriera - dove un primo ramo si distribuiva su due trombe a vento per l’alimentazione di un fuoco di raffinazione, e un secondo lambiva il lato meridionale dell’edificio per muovere la ruota idraulica di un maglio. Il secondo corpo della ferriera, a monte, fungeva da deposito per carbone e minerale e come alloggio dei lavoranti.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Vicino alla ferriera sopravvivono i ruderi di un ponte medievale ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "a schiena d’asino",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "ferriera",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a27ad6edbd00b4493dfe8",
-    "galleria": [
-      "682a27c36edbd00b4493e00e",
-      "682a27dc6edbd00b4493e02f"
-    ]
-  },
-  {
-    "_id": "682602659684ecc0f8cf9fc1",
-    "createdAt": "2025-05-15T15:04:05.808Z",
-    "updatedAt": "2025-05-18T18:35:48.489Z",
-    "nome": "Ponte medievale",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.13892,
-        15.563955
-      ]
-    },
-    "servizi": [],
-    "contatti": [],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Accesso libero, sempre visitabile.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "ponte ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "a schiena d’asino",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " di origine mediavale è collocato al di fuori del centro abitato e attraversa il corso del ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Bussentino ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "(O ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Rio Casaletto",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "), affluente del Bussento e parte integrante del sistema carsico del territorio. Il ponte è sempre visitabile; è possibile scendere fino al torrente e ammirarlo dal basso, anche immersi dentro le acque fredde del fiume.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "ponte-medievale",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a28596edbd00b4493e0bc",
-    "galleria": [
-      "682a28816edbd00b4493e0f0"
-    ]
-  },
-  {
-    "_id": "682602849684ecc0f8cf9fe3",
-    "createdAt": "2025-05-15T15:04:36.932Z",
-    "updatedAt": "2025-05-18T18:45:44.587Z",
-    "nome": "Palazzo Baronale",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.139758,
-        15.555045
-      ]
-    },
-    "servizi": [],
-    "contatti": [],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Sempre visitabile attraverso il cortile interno. Spazi interni in ristrutturazione.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "La costruzione del ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Castello",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - poi trasformato in ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Palazzo Baronale Gallotti-De Stefano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " nel corso del Quattrocento - risale al Trecento, ovvero al periodo relativo alla fortificazione del centro storico.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il palazzo signorile sorge nel cuore del centro abitato",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "; ha una corte centrale e, al piano superiore, un suggestivo portico sul quale si affacciano degli ambienti che conservano ancora gli arredi originari, tra cui soffitti in legno e affreschi. Nel cortile, cui si accede da un portale datato 1708, è possibile ammirare una cappella gentilizia privata, restaurata di recente e dedicata alla Madonna Delle Grazie, di cui si conserva una statua lignea risalente al Seicento. ",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 1,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Lo stabile trecentesco domina dal XV secolo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Piazza Piano La Porta",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", la piazza centrale di Morigerati. Le sue pietre raccontano vita e storia dei casati che vi si sono succeduti. Nell'ala più bella del Castello - ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "la cui porta resta ancora oggi sempre aperta",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - vissero un tempo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Clorinda e Modestina Florenzano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ": le due maestre del paese cui si deve la nascita del Museo Etnografico della civiltà contadina.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "palazzo-baronale",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a28a96edbd00b4493e133",
-    "galleria": [
-      "682a29d96edbd00b4493e17d",
-      "682a29e96edbd00b4493e19d",
-      "682a29fa6edbd00b4493e1bc",
-      "682a2a0f6edbd00b4493e1db",
-      "682a2a256edbd00b4493e206",
-      "682a2a426edbd00b4493e226",
-      "682a2a7b6edbd00b4493e251",
-      "682a2a946edbd00b4493e271",
-      "682a2aa86edbd00b4493e290",
-      "682a2abf6edbd00b4493e2bb",
-      "682a2ad36edbd00b4493e2db"
-    ]
-  },
-  {
-    "_id": "682602c69684ecc0f8cfa010",
-    "createdAt": "2025-05-15T15:05:42.852Z",
-    "updatedAt": "2025-05-18T19:11:05.669Z",
-    "nome": "Museo Etnografico",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.139656,
-        15.554068
-      ]
-    },
-    "servizi": [
-      {
-        "nome": {
-          "it": "Servizi di visita guidata "
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Il museo etnografico può essere visitato tutto l’anno su prenotazione con visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa del grande patrimonio materiale e immateriale.",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "682602a5203ca98937b4e83a"
-      }
-    ],
-    "contatti": [
-      {
-        "nome": "Elfride",
-        "telefono": "0974 982024",
-        "id": "682602af203ca98937b4e83b"
-      }
-    ],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il museo etnografico può essere visitato tutto l’anno su prenotazione.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Museo Etnografico di Morigerati ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "vanta una vastissima collezione con esposizione permanente di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "più di 900 materiali, arredi, tessuti, strumenti e arnesi appartenenti alla civiltà contadina",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " locale, suddivisi in aree tematiche e databili dalla fine dell’Ottocento agli anni Sessanta del Novecento.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Gli oggetti esposti, legati alla lavorazione del lino e della cera - come, più in generale, alla vita e al lavoro quotidiano, fortemente condizionato dalle peculiarità paesaggistiche del territorio del geosito - furono raccolti e recuperati da due lungimiranti maestre del paese: ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "le sorelle Clorinda e Modestina Florenzano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", grazie alle quali il Museo, nel 1976, aprì per la prima volta le sue porte al pubblico. ",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "museo-etnografico",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a2b696edbd00b4493e31c",
-    "galleria": [
-      "682a2d706edbd00b4493e33c",
-      "682a2d8e6edbd00b4493e35c",
-      "682a2dac6edbd00b4493e37b",
-      "682a2dd06edbd00b4493e3a6",
-      "682a2df56edbd00b4493e3c6",
-      "682a2e096edbd00b4493e3e5",
-      "682a2e296edbd00b4493e404",
-      "682a2e516edbd00b4493e42f",
-      "682a2e796edbd00b4493e44f",
-      "682a2f416edbd00b4493e46e",
-      "682a2f5d6edbd00b4493e4b2",
-      "682a2f716edbd00b4493e4d1",
-      "682a2f8b6edbd00b4493e4f0",
-      "682a2fa36edbd00b4493e51b",
-      "682a300a6edbd00b4493e53b",
-      "682a302e6edbd00b4493e55a",
-      "682a304c6edbd00b4493e585",
-      "682a30a66edbd00b4493e5a5",
-      "682a30c66edbd00b4493e5f1"
-    ]
-  },
-  {
-    "_id": "682603669684ecc0f8cfa088",
-    "createdAt": "2025-05-15T15:08:22.410Z",
-    "updatedAt": "2025-05-18T19:13:19.521Z",
-    "nome": "Mulino ad acqua",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.14414,
-        15.550088
-      ]
-    },
-    "servizi": [
-      {
-        "nome": {
-          "it": "Servizi di visita e visita guidata dell'Oasi WWF - Grotte del Bussento"
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Il mulino è contenuto all'interno dell’Oasi WWf che può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia) con biglietto di ingresso (Biglietto Intero € 6,00, Biglietto Ridotto ragazzi dai 6 ai 14 anni e over 65 € 4,00, Bambini fino a 5 anni € 0,00, Soci WWF Italia € 0,00) e mappa del percorso. Si effettuano visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa ed emozionante dell'area.",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "68260343203ca98937b4e83c"
-      }
-    ],
-    "contatti": [
-      {
-        "nome": "Demetria",
-        "link": "www.grottemorigerati.it",
-        "email": "grottebussento@wwf.it",
-        "telefono": "333/6959991",
-        "id": "6826034d203ca98937b4e83d"
-      }
-    ],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L’oasi può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia).",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orari:",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 1,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orario di apertura per i mesi di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "GEN/FEB/MAR/NOV/DIC",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " dalle 10:00 alle 16:00 su prenotazione (Chiusura biglietteria e ultimi ingresso ore 14.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orario di apertura per i mesi di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "APR/OTT ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "dalle 10:00 alle 17:00 (Chiusura biglietteria e ultimi ingresso ore 15.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orario di apertura per i mesi di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "MAG/SET",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " dalle 10:00 alle 18:00 (Chiusura biglietteria e ultimi ingresso ore 16.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orario di apertura per i mesi di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "GIU/LUG/AGO ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "dalle 10:00 alle 19:00 (Chiusura biglietteria e ultimi ingresso ore 17.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'antico ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "mulino ad acqua a modello greco",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", databile verso la fine del Settecento - recentemente restaurato, funzionante e visitabile - è compreso all'interno dell'area dell'Oasi WWF \"Grotte del Bussento\" di Morigerati. Alimentato da una bolla sorgiva con una pressione molto spinta, è parte integrante del paesaggio culturale dell'Ecomuseo, ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "frutto della coesistenza tra uomo e risorse naturali",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Si tratta di un luogo profondamente legato alla storia e all'economia agricola tradizionale del paese, utilizzato fino agli anni Sessanta per la macerazione del grano e la produzione di lino e farina. ",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "mulino-ad-acqua",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a30f46edbd00b4493e630",
-    "galleria": [
-      "682a31286edbd00b4493e680",
-      "682a313a6edbd00b4493e6a0",
-      "682a314c6edbd00b4493e6cb"
-    ]
-  },
-  {
-    "_id": "6826039c9684ecc0f8cfa0b5",
-    "createdAt": "2025-05-15T15:09:16.402Z",
-    "updatedAt": "2025-05-18T19:24:42.818Z",
-    "nome": "Antico Frantoio - sede dell'Ecomuseo",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.14065,
-        15.552709
-      ]
-    },
-    "servizi": [
-      {
-        "nome": {
-          "it": "Sede dell'Ecomuseo - Esposizione multimediale"
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "Visita guidata dell'esposizione multimediale.",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "6826037c203ca98937b4e83e"
-      }
-    ],
-    "contatti": [
-      {
-        "nome": "Transluoghi",
-        "email": "transluoghi@gmail.com",
-        "telefono": "3204454067",
-        "id": "68260387203ca98937b4e83f"
-      }
-    ],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orari di apertura della sede per il mese di MAGGIO 2025:",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 1,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> giovedì 1",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> venerdì 2",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> sabato 3, 10, 17, 24, 31",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "type": "linebreak",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "> domenica 4, 11, 18, 25",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "start",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "DALLE ORE 11:00 ALLE ORE 17:00",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 1,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1,
-          "textFormat": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Un ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "nastro verde di ferro",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " si snoda attraverso lo spazio dell'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Antico Frantoio",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - edificio storico di Morigerati, datato intorno alla fine del Settecento e oggi ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "sede dell'Ecomuseo Transluoghi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - fungendo da guida visiva e simbolica per i fruitori.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il nastro si intreccia con la pietra del luogo, seguendo il ritmo delle pareti e attraversando gli storici macchinari utilizzati per la spremitura delle olive. Su di esso sono apposti dei ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "piccoli pannelli informativi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", che raccontano i contenuti multimediali dell'esposizione - creando un percorso che invita ad esplorare le storie e gli itinerari dell'Ecomuseo. I pannelli, fissati al supporto in ferro tramite l'uso di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "calamite",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", consentono una connessione sicura e facilmente rinnovabile nel tempo.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'allestimento multimediale dello spazio consta di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "3 monitor, un totem dotato di touchscreen e 4 visori per la realtà aumentata",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ". Questi ultimi sono conservati all'interno di altrettante ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "sedute in legno a forma di cubo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", progettate per essere funzionali all'esperienza immersiva. I cubi - ricavati da un unico pannello di legno, piegato con la tecnica del ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "kerfing ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "- sono girevoli, per permettere ai visitatori di usufruire al meglio dei visori VR, e forati, per possibili giochi di luce.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Al di fuori della sede, i visitatori possono accomodarsi su una serie di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "panche impilabili",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", facilmente riordinate a seconda dell'uso di spazi interni ed esterni.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "A completare l'allestimento, dei ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "porta-brochure",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " e altri ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "dispositivi che fungono da contenitori",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", progettati per riporre il materiale elettrico.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "La progettazione dell'allestimento della sede di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Transluoghi - Ecomuseo del Bussento Contemporaneo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - curato nella parte fisica da ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Giancarlo Guadagno, Simona Quagliano e Ilaria Spagnuolo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", e nella parte audiovideo da ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Daniele G. De Stefano",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - è in perfetta sintonia con l'identità grafica dell'Ecomuseo nell'utilizzo sia dei segni che dei colori, con un linguaggio unico declinato per le diverse forme di comunicazione.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "ALLESTIMENTO AUDIOVIDEO",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "heading",
-              "version": 1,
-              "tag": "h5"
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Gli schermi allestiti presso la sede dell'Ecomuseo sono ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "un primo portale d'ingresso",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " nel patrimonio culturale e paesaggistico del territorio di Morigerati e Sicilì. I ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "contenuti multimediali",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " di cui si compongono possono essere fruiti dagli ospiti in maniera autonoma - senza seguire un particolare ordine di successione oppure affidandosi al percorso numerico creato dai curatori.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Lo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 9,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "schermo #1",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " illustra il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "concetto di Ecomuseo",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " e racconta la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "nascita del progetto Transluoghi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Lo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 9,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "schermo #2",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " presenta il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "sistema dei sette itinerari",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " culturali e ambientali dell'Ecomuseo, raccontandone i luoghi e proponendo una ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "rappresentazione dei percorsi in 3D",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - corredata da una serie di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "dati tecnici",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " riguardanti il livello di difficoltà, le tempistiche, i punti di interesse dei cammini e la legenda esplicativa dei loghi e delle icone che li raffigurano.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Lo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 9,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "schermo #3",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " è posizionato in ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "verticale ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "per permettere la fruizione di contenuti multimediali differenti, anche per formato, da quelli ospitati negli schermi 1 e 2, più informativi e graficizzati. Si tratta di ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "brevi biografie degli abitanti del paese",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", coinvolti in maniera attiva nel progetto Transluoghi: ritratti che ne raccontano l'impegno profuso nel contesto sociale e culturale dell'area, il rapporto con il territorio e le vicissitudini che li hanno portati a vivere in questi luoghi. I ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "video-racconti ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "sono frutto della ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 3,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "residenza di narrazione territoriale e videomaking",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " organizzata dall'Ecomuseo Transluoghi.",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'ultima installazione audiovideo riguarda i ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "5 visori VR",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", pensati per dare ai visitatori la possibilità di osservare il territorio da angolazioni nuove e difficilmente raggiungibili - senza volersi in alcun modo sostituire all'esperienza reale della natura incontaminata e dell'incontro con le persone. Montagne viste dall'alto a volo d'uccello e profonde immersioni subacquee: tra i video VR, anche una ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "discesa a 360° all'interno della Grotta della Risorgenza del Bussento",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " insieme agli ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "speleologi dell'Associazione Tetide Aps",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "antico-frantoio---sede-dellecomuseo",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a33056edbd00b4493e710",
-    "galleria": [
-      "682a331c6edbd00b4493e730",
-      "682a33326edbd00b4493e74f",
-      "682a33526edbd00b4493e76e",
-      "682a33626edbd00b4493e78d",
-      "682a33836edbd00b4493e7ac",
-      "682a33996edbd00b4493e7d7",
-      "682a33ac6edbd00b4493e7f7",
-      "682a33bd6edbd00b4493e816",
-      "682a33d46edbd00b4493e841",
-      "682a33e76edbd00b4493e861",
-      "682a33f86edbd00b4493e880"
-    ]
-  },
-  {
-    "_id": "682603e09684ecc0f8cfa0f2",
-    "createdAt": "2025-05-15T15:10:24.680Z",
-    "updatedAt": "2025-05-18T19:30:25.733Z",
-    "nome": "Oasi WWF \"Grotte del Bussento\"",
-    "posizione": {
-      "type": "Point",
-      "coordinates": [
-        40.14065,
-        15.552709
-      ]
-    },
-    "servizi": [
-      {
-        "nome": {
-          "it": "Servizi di visita e visita guidata dell'Oasi WWF - Grotte del Bussento"
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "L’oasi WWf può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia) con biglietto di ingresso (Biglietto Intero € 6,00, Biglietto Ridotto ragazzi dai 6 ai 14 anni e over 65 € 4,00, Bambini fino a 5 anni € 0,00, Soci WWF Italia € 0,00) e mappa del percorso. Si effettuano visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa ed emozionante dell'area.",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                },
-                {
-                  "children": [],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "682603b2203ca98937b4e840"
-      },
-      {
-        "nome": {
-          "it": "Servizi di Audioguida multilingue "
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "L’oasi WWf può essere visitata autonomamente servendosi di audioguide multilingue che raccontano l'intero percorso aumentando l'esperienza di fruizione dell'area.",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "682603b9203ca98937b4e841"
-      },
-      {
-        "nome": {
-          "it": "Servizi igienici"
-        },
-        "testo": {
-          "it": {
-            "root": {
-              "children": [
-                {
-                  "children": [
-                    {
-                      "detail": 0,
-                      "format": 0,
-                      "mode": "normal",
-                      "style": "",
-                      "text": "La biglietteria è dotata di servizi di Bagno / WC e di eventuali scarpe chiuse (necessarie per percorrere il tratto di sentiero)",
-                      "type": "text",
-                      "version": 1
-                    }
-                  ],
-                  "direction": "ltr",
-                  "format": "",
-                  "indent": 0,
-                  "type": "paragraph",
-                  "version": 1,
-                  "textFormat": 0,
-                  "textStyle": ""
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "root",
-              "version": 1
-            }
-          }
-        },
-        "id": "682603c1203ca98937b4e842"
-      }
-    ],
-    "contatti": [
-      {
-        "nome": "Demetria",
-        "link": "www.grottemorigerati.it",
-        "email": "grottebussento@wwf.it",
-        "telefono": "333/6959991",
-        "id": "682603c9203ca98937b4e843"
-      }
-    ],
-    "orari": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L’oasi può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia).",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Orari:",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per i mesi di GEN/FEB/MAR/NOV/DIC dalle 10:00 alle 16:00 su prenotazione (Chiusura biglietteria e ultimi ingresso ore 14.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per i mesi di APR/OTT dalle 10:00 alle 17:00 (Chiusura biglietteria e ultimi ingresso ore 15.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per i mesi di MAG/SET dalle 10:00 alle 18:00 (Chiusura biglietteria e ultimi ingresso ore 16.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Per i mesi di GIU/LUG/AGO dalle 10:00 alle 19:00 (Chiusura biglietteria e ultimi ingresso ore 17.00)",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "testo": {
-      "it": {
-        "root": {
-          "children": [
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "OASI WWF \"Grotte del Bussento\"",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", estesa per un'area di 607 ettari, è un’",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "oasi di protezione della fauna nata nel 1995",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " e soggetta a vincolo paesaggistico e idrogeologico - ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "riconosciuta finanche dall’UNESCO",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ", che l'ha inclusa nella prestigiosa Rete delle Riserve della Biosfera (Programma MAB; 1997), e dall’European and Global Geopark Network (2010).",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "geosito del Bussento medio-orientale",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " costituisce, infatti, uno dei complessi fluviali più interessanti dell’intero geoparco, dove la forza erosiva del fiume plasma un sistema di forre tale da farvi registrare ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "il secondo fenomeno carsico per estensione della penisola, e il più lungo del sud Italia",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ".",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "A Morigerati, in particolare, la risorgenza del fiume Bussento dà vita a un canyon profondo e suggestivo, che custodisce un habitat naturale di flora e fauna rare e protette - tra cui una ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "stazione dei muschi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " molto importante per la sua estensione e ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "diverse specie inserite in liste di tutela",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " nazionale e internazionale (Dir. Habitat, CITES, Red List IUCN) quali il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "gatto selvatico",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " (",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Felis Sylvestris",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "), il ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "lupo ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "(",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Canis Lupus",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "), la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "martora ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "(",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Martes Martes",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "), la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "puzzola ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "(",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Mustela Putorius",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ") e la ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "lontra ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "(",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 2,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "Lutra Lutra",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": ").",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "L'Oasi WWF è gestita dalla ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "società “Morgete”",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - composta da sole ",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 1,
-                  "mode": "normal",
-                  "style": "",
-                  "text": "donne morigeratesi",
-                  "type": "text",
-                  "version": 1
-                },
-                {
-                  "detail": 0,
-                  "format": 0,
-                  "mode": "normal",
-                  "style": "",
-                  "text": " - ed ospita l’antico mulino ad acqua del paese, recentemente restaurato e funzionante. ",
-                  "type": "text",
-                  "version": 1
-                }
-              ],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            },
-            {
-              "children": [],
-              "direction": "ltr",
-              "format": "",
-              "indent": 0,
-              "type": "paragraph",
-              "version": 1,
-              "textFormat": 0,
-              "textStyle": ""
-            }
-          ],
-          "direction": "ltr",
-          "format": "",
-          "indent": 0,
-          "type": "root",
-          "version": 1
-        }
-      }
-    },
-    "slug": "oasi-wwf-grotte-del-bussento",
-    "slugLock": true,
-    "meta": {},
-    "__v": 0,
-    "copertina": "682a34386edbd00b4493e8be",
-    "galleria": [
-      "682a344d6edbd00b4493e8de",
-      "682a34626edbd00b4493e8fd",
-      "682a34796edbd00b4493e91c",
-      "682a34886edbd00b4493e93b",
-      "682a349b6edbd00b4493e95a",
-      "682a34b06edbd00b4493e979",
-      "682a34c56edbd00b4493e998",
-      "682a34db6edbd00b4493e9b7",
-      "682a351d6edbd00b4493ea60",
-      "682a352d6edbd00b4493ea7f",
-      "682a353e6edbd00b4493ea9e",
-      "682a354f6edbd00b4493eabd"
-    ]
-  }
+	{
+		"_id": "6826014c9684ecc0f8cf9e91",
+		"createdAt": "2025-05-15T14:59:24.916Z",
+		"updatedAt": "2025-05-15T16:21:31.505Z",
+		"nome": "Eremo di San Michele",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.15402, 15.5454]
+		},
+		"servizi": [],
+		"contatti": [],
+		"testo": {
+			"en": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "en",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			},
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il santuario, situato sul ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "monte Pittari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", comprende la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Grotta di San Michele",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " e la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Grotta dell’Angelo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ". Sebbene distinte nel nome, le due grotte condividono una serie di funzioni religiose e si affacciano sulla risorgiva dell’Oasi WWF \"Grotte del Bussento\" di Morigerati. Davanti a entrambe si trova un piazzale ottocentesco in muratura.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "La ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Grotta di San Michele",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", dallo sviluppo orizzontale, è accessibile tramite un cancello in ferro che conduce a una galleria lunga circa 10 metri. Alla fine della galleria, si dispiega una sala irregolare con pareti concrezionate e una colonna naturale al centro, alla quale è addossato un altare votivo, simile alla navata di un’antica chiesa. Qui si trovano una vasca lustrale, ruderi di opere murarie e un bassorilievo del XII secolo, posto accanto all’altare.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "La ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Grotta dell’Angelo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " si estende per 49 metri, con un ingresso chiuso da un cancelletto. All'ingresso è visibile un piccolo altare votivo con degli angeli. Il percorso presenta un’ampia curva e termina verso nord.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "eremo-di-san-michele",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Accesso libero, sempre visitabile.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"copertina": "68261190c67065dd5adb7ce4",
+		"galleria": [
+			"682612e5c67065dd5adb7d75",
+			"68261190c67065dd5adb7ce4",
+			"68261377c67065dd5adb7e85",
+			"68261397c67065dd5adb7eab",
+			"682613d9c67065dd5adb7f22",
+			"6826143fc67065dd5adb7fd3",
+			"6826141ec67065dd5adb7f9f"
+		],
+		"Itinerari_relation": ["682606ffc67065dd5adb73d0", "682606a0c67065dd5adb7375"]
+	},
+	{
+		"_id": "682602409684ecc0f8cf9fa0",
+		"createdAt": "2025-05-15T15:03:28.528Z",
+		"updatedAt": "2025-05-18T18:33:16.460Z",
+		"nome": "Ferriera",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.138516, 15.560774]
+		},
+		"servizi": [],
+		"contatti": [],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Accesso libero, sempre visitabile",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "La ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Ferriera di Valle della Corte",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", a Morigerati, è considerata uno degli esempi più interessanti di archeologia industriale del territorio cilentano.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "È stata realizzata intorno alla metà del diciannovesimo secolo e utilizzata per lavorare e trasformare il ferro. Si tratta di un grande esempio di archeologia proto-industriale, con oltre 450 metri quadrati di superficie, fino a poco tempo fa sepolto da circa tre metri di terra e camuffato da una fitta macchia mediterranea. Un tesoro, disposto su due corpi di fabbrica, venuto alla luce solo qualche anno fa.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "A poche centinaia di metri, un canale artificiale derivava l’acqua del fiume verso il corpo inferiore della ferriera - dove un primo ramo si distribuiva su due trombe a vento per l’alimentazione di un fuoco di raffinazione, e un secondo lambiva il lato meridionale dell’edificio per muovere la ruota idraulica di un maglio. Il secondo corpo della ferriera, a monte, fungeva da deposito per carbone e minerale e come alloggio dei lavoranti.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Vicino alla ferriera sopravvivono i ruderi di un ponte medievale ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "a schiena d’asino",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "ferriera",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a27ad6edbd00b4493dfe8",
+		"galleria": ["682a27c36edbd00b4493e00e", "682a27dc6edbd00b4493e02f"]
+	},
+	{
+		"_id": "682602659684ecc0f8cf9fc1",
+		"createdAt": "2025-05-15T15:04:05.808Z",
+		"updatedAt": "2025-05-18T18:35:48.489Z",
+		"nome": "Ponte medievale",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.13892, 15.563955]
+		},
+		"servizi": [],
+		"contatti": [],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Accesso libero, sempre visitabile.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "ponte ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "a schiena d’asino",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " di origine mediavale è collocato al di fuori del centro abitato e attraversa il corso del ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Bussentino ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "(O ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Rio Casaletto",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "), affluente del Bussento e parte integrante del sistema carsico del territorio. Il ponte è sempre visitabile; è possibile scendere fino al torrente e ammirarlo dal basso, anche immersi dentro le acque fredde del fiume.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "ponte-medievale",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a28596edbd00b4493e0bc",
+		"galleria": ["682a28816edbd00b4493e0f0"]
+	},
+	{
+		"_id": "682602849684ecc0f8cf9fe3",
+		"createdAt": "2025-05-15T15:04:36.932Z",
+		"updatedAt": "2025-05-18T18:45:44.587Z",
+		"nome": "Palazzo Baronale",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.139758, 15.555045]
+		},
+		"servizi": [],
+		"contatti": [],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Sempre visitabile attraverso il cortile interno. Spazi interni in ristrutturazione.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "La costruzione del ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Castello",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - poi trasformato in ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Palazzo Baronale Gallotti-De Stefano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " nel corso del Quattrocento - risale al Trecento, ovvero al periodo relativo alla fortificazione del centro storico.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Il palazzo signorile sorge nel cuore del centro abitato",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "; ha una corte centrale e, al piano superiore, un suggestivo portico sul quale si affacciano degli ambienti che conservano ancora gli arredi originari, tra cui soffitti in legno e affreschi. Nel cortile, cui si accede da un portale datato 1708, è possibile ammirare una cappella gentilizia privata, restaurata di recente e dedicata alla Madonna Delle Grazie, di cui si conserva una statua lignea risalente al Seicento. ",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 1,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Lo stabile trecentesco domina dal XV secolo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Piazza Piano La Porta",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", la piazza centrale di Morigerati. Le sue pietre raccontano vita e storia dei casati che vi si sono succeduti. Nell'ala più bella del Castello - ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "la cui porta resta ancora oggi sempre aperta",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - vissero un tempo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Clorinda e Modestina Florenzano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ": le due maestre del paese cui si deve la nascita del Museo Etnografico della civiltà contadina.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "palazzo-baronale",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a28a96edbd00b4493e133",
+		"galleria": [
+			"682a29d96edbd00b4493e17d",
+			"682a29e96edbd00b4493e19d",
+			"682a29fa6edbd00b4493e1bc",
+			"682a2a0f6edbd00b4493e1db",
+			"682a2a256edbd00b4493e206",
+			"682a2a426edbd00b4493e226",
+			"682a2a7b6edbd00b4493e251",
+			"682a2a946edbd00b4493e271",
+			"682a2aa86edbd00b4493e290",
+			"682a2abf6edbd00b4493e2bb",
+			"682a2ad36edbd00b4493e2db"
+		]
+	},
+	{
+		"_id": "682602c69684ecc0f8cfa010",
+		"createdAt": "2025-05-15T15:05:42.852Z",
+		"updatedAt": "2025-05-18T19:11:05.669Z",
+		"nome": "Museo Etnografico",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.139656, 15.554068]
+		},
+		"servizi": [
+			{
+				"nome": {
+					"it": "Servizi di visita guidata "
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Il museo etnografico può essere visitato tutto l’anno su prenotazione con visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa del grande patrimonio materiale e immateriale.",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "682602a5203ca98937b4e83a"
+			}
+		],
+		"contatti": [
+			{
+				"nome": "Elfride",
+				"telefono": "0974 982024",
+				"id": "682602af203ca98937b4e83b"
+			}
+		],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il museo etnografico può essere visitato tutto l’anno su prenotazione.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Museo Etnografico di Morigerati ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "vanta una vastissima collezione con esposizione permanente di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "più di 900 materiali, arredi, tessuti, strumenti e arnesi appartenenti alla civiltà contadina",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " locale, suddivisi in aree tematiche e databili dalla fine dell’Ottocento agli anni Sessanta del Novecento.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Gli oggetti esposti, legati alla lavorazione del lino e della cera - come, più in generale, alla vita e al lavoro quotidiano, fortemente condizionato dalle peculiarità paesaggistiche del territorio del geosito - furono raccolti e recuperati da due lungimiranti maestre del paese: ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "le sorelle Clorinda e Modestina Florenzano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", grazie alle quali il Museo, nel 1976, aprì per la prima volta le sue porte al pubblico. ",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "museo-etnografico",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a2b696edbd00b4493e31c",
+		"galleria": [
+			"682a2d706edbd00b4493e33c",
+			"682a2d8e6edbd00b4493e35c",
+			"682a2dac6edbd00b4493e37b",
+			"682a2dd06edbd00b4493e3a6",
+			"682a2df56edbd00b4493e3c6",
+			"682a2e096edbd00b4493e3e5",
+			"682a2e296edbd00b4493e404",
+			"682a2e516edbd00b4493e42f",
+			"682a2e796edbd00b4493e44f",
+			"682a2f416edbd00b4493e46e",
+			"682a2f5d6edbd00b4493e4b2",
+			"682a2f716edbd00b4493e4d1",
+			"682a2f8b6edbd00b4493e4f0",
+			"682a2fa36edbd00b4493e51b",
+			"682a300a6edbd00b4493e53b",
+			"682a302e6edbd00b4493e55a",
+			"682a304c6edbd00b4493e585",
+			"682a30a66edbd00b4493e5a5",
+			"682a30c66edbd00b4493e5f1"
+		]
+	},
+	{
+		"_id": "682603669684ecc0f8cfa088",
+		"createdAt": "2025-05-15T15:08:22.410Z",
+		"updatedAt": "2025-05-18T19:13:19.521Z",
+		"nome": "Mulino ad acqua",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.14414, 15.550088]
+		},
+		"servizi": [
+			{
+				"nome": {
+					"it": "Servizi di visita e visita guidata dell'Oasi WWF - Grotte del Bussento"
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Il mulino è contenuto all'interno dell’Oasi WWf che può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia) con biglietto di ingresso (Biglietto Intero € 6,00, Biglietto Ridotto ragazzi dai 6 ai 14 anni e over 65 € 4,00, Bambini fino a 5 anni € 0,00, Soci WWF Italia € 0,00) e mappa del percorso. Si effettuano visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa ed emozionante dell'area.",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "68260343203ca98937b4e83c"
+			}
+		],
+		"contatti": [
+			{
+				"nome": "Demetria",
+				"link": "www.grottemorigerati.it",
+				"email": "grottebussento@wwf.it",
+				"telefono": "333/6959991",
+				"id": "6826034d203ca98937b4e83d"
+			}
+		],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L’oasi può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia).",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Orari:",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 1,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Orario di apertura per i mesi di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "GEN/FEB/MAR/NOV/DIC",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " dalle 10:00 alle 16:00 su prenotazione (Chiusura biglietteria e ultimi ingresso ore 14.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Orario di apertura per i mesi di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "APR/OTT ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "dalle 10:00 alle 17:00 (Chiusura biglietteria e ultimi ingresso ore 15.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Orario di apertura per i mesi di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "MAG/SET",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " dalle 10:00 alle 18:00 (Chiusura biglietteria e ultimi ingresso ore 16.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Orario di apertura per i mesi di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "GIU/LUG/AGO ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "dalle 10:00 alle 19:00 (Chiusura biglietteria e ultimi ingresso ore 17.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'antico ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "mulino ad acqua a modello greco",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", databile verso la fine del Settecento - recentemente restaurato, funzionante e visitabile - è compreso all'interno dell'area dell'Oasi WWF \"Grotte del Bussento\" di Morigerati. Alimentato da una bolla sorgiva con una pressione molto spinta, è parte integrante del paesaggio culturale dell'Ecomuseo, ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "frutto della coesistenza tra uomo e risorse naturali",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Si tratta di un luogo profondamente legato alla storia e all'economia agricola tradizionale del paese, utilizzato fino agli anni Sessanta per la macerazione del grano e la produzione di lino e farina. ",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "mulino-ad-acqua",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a30f46edbd00b4493e630",
+		"galleria": ["682a31286edbd00b4493e680", "682a313a6edbd00b4493e6a0", "682a314c6edbd00b4493e6cb"]
+	},
+	{
+		"_id": "6826039c9684ecc0f8cfa0b5",
+		"createdAt": "2025-05-15T15:09:16.402Z",
+		"updatedAt": "2025-05-18T19:24:42.818Z",
+		"nome": "Antico Frantoio - sede dell'Ecomuseo",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.14065, 15.552709]
+		},
+		"servizi": [
+			{
+				"nome": {
+					"it": "Sede dell'Ecomuseo - Esposizione multimediale"
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "Visita guidata dell'esposizione multimediale.",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "6826037c203ca98937b4e83e"
+			}
+		],
+		"contatti": [
+			{
+				"nome": "Transluoghi",
+				"email": "transluoghi@gmail.com",
+				"telefono": "3204454067",
+				"id": "68260387203ca98937b4e83f"
+			}
+		],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Orari di apertura della sede per il mese di MAGGIO 2025:",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 1,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "> giovedì 1",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "> venerdì 2",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "> sabato 3, 10, 17, 24, 31",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"type": "linebreak",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "> domenica 4, 11, 18, 25",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "start",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "DALLE ORE 11:00 ALLE ORE 17:00",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 1,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1,
+					"textFormat": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Un ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "nastro verde di ferro",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " si snoda attraverso lo spazio dell'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Antico Frantoio",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - edificio storico di Morigerati, datato intorno alla fine del Settecento e oggi ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "sede dell'Ecomuseo Transluoghi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - fungendo da guida visiva e simbolica per i fruitori.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il nastro si intreccia con la pietra del luogo, seguendo il ritmo delle pareti e attraversando gli storici macchinari utilizzati per la spremitura delle olive. Su di esso sono apposti dei ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "piccoli pannelli informativi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", che raccontano i contenuti multimediali dell'esposizione - creando un percorso che invita ad esplorare le storie e gli itinerari dell'Ecomuseo. I pannelli, fissati al supporto in ferro tramite l'uso di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "calamite",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", consentono una connessione sicura e facilmente rinnovabile nel tempo.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'allestimento multimediale dello spazio consta di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "3 monitor, un totem dotato di touchscreen e 4 visori per la realtà aumentata",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ". Questi ultimi sono conservati all'interno di altrettante ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "sedute in legno a forma di cubo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", progettate per essere funzionali all'esperienza immersiva. I cubi - ricavati da un unico pannello di legno, piegato con la tecnica del ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "kerfing ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "- sono girevoli, per permettere ai visitatori di usufruire al meglio dei visori VR, e forati, per possibili giochi di luce.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Al di fuori della sede, i visitatori possono accomodarsi su una serie di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "panche impilabili",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", facilmente riordinate a seconda dell'uso di spazi interni ed esterni.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "A completare l'allestimento, dei ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "porta-brochure",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " e altri ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "dispositivi che fungono da contenitori",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", progettati per riporre il materiale elettrico.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "La progettazione dell'allestimento della sede di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Transluoghi - Ecomuseo del Bussento Contemporaneo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - curato nella parte fisica da ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Giancarlo Guadagno, Simona Quagliano e Ilaria Spagnuolo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", e nella parte audiovideo da ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "Daniele G. De Stefano",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - è in perfetta sintonia con l'identità grafica dell'Ecomuseo nell'utilizzo sia dei segni che dei colori, con un linguaggio unico declinato per le diverse forme di comunicazione.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "ALLESTIMENTO AUDIOVIDEO",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "heading",
+							"version": 1,
+							"tag": "h5"
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Gli schermi allestiti presso la sede dell'Ecomuseo sono ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "un primo portale d'ingresso",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " nel patrimonio culturale e paesaggistico del territorio di Morigerati e Sicilì. I ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "contenuti multimediali",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " di cui si compongono possono essere fruiti dagli ospiti in maniera autonoma - senza seguire un particolare ordine di successione oppure affidandosi al percorso numerico creato dai curatori.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Lo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 9,
+									"mode": "normal",
+									"style": "",
+									"text": "schermo #1",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " illustra il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "concetto di Ecomuseo",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " e racconta la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "nascita del progetto Transluoghi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Lo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 9,
+									"mode": "normal",
+									"style": "",
+									"text": "schermo #2",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " presenta il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "sistema dei sette itinerari",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " culturali e ambientali dell'Ecomuseo, raccontandone i luoghi e proponendo una ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "rappresentazione dei percorsi in 3D",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - corredata da una serie di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "dati tecnici",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " riguardanti il livello di difficoltà, le tempistiche, i punti di interesse dei cammini e la legenda esplicativa dei loghi e delle icone che li raffigurano.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Lo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 9,
+									"mode": "normal",
+									"style": "",
+									"text": "schermo #3",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " è posizionato in ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "verticale ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "per permettere la fruizione di contenuti multimediali differenti, anche per formato, da quelli ospitati negli schermi 1 e 2, più informativi e graficizzati. Si tratta di ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "brevi biografie degli abitanti del paese",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", coinvolti in maniera attiva nel progetto Transluoghi: ritratti che ne raccontano l'impegno profuso nel contesto sociale e culturale dell'area, il rapporto con il territorio e le vicissitudini che li hanno portati a vivere in questi luoghi. I ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "video-racconti ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "sono frutto della ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 3,
+									"mode": "normal",
+									"style": "",
+									"text": "residenza di narrazione territoriale e videomaking",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " organizzata dall'Ecomuseo Transluoghi.",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'ultima installazione audiovideo riguarda i ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "5 visori VR",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", pensati per dare ai visitatori la possibilità di osservare il territorio da angolazioni nuove e difficilmente raggiungibili - senza volersi in alcun modo sostituire all'esperienza reale della natura incontaminata e dell'incontro con le persone. Montagne viste dall'alto a volo d'uccello e profonde immersioni subacquee: tra i video VR, anche una ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "discesa a 360° all'interno della Grotta della Risorgenza del Bussento",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " insieme agli ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "speleologi dell'Associazione Tetide Aps",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "antico-frantoio---sede-dellecomuseo",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a33056edbd00b4493e710",
+		"galleria": [
+			"682a331c6edbd00b4493e730",
+			"682a33326edbd00b4493e74f",
+			"682a33526edbd00b4493e76e",
+			"682a33626edbd00b4493e78d",
+			"682a33836edbd00b4493e7ac",
+			"682a33996edbd00b4493e7d7",
+			"682a33ac6edbd00b4493e7f7",
+			"682a33bd6edbd00b4493e816",
+			"682a33d46edbd00b4493e841",
+			"682a33e76edbd00b4493e861",
+			"682a33f86edbd00b4493e880"
+		]
+	},
+	{
+		"_id": "682603e09684ecc0f8cfa0f2",
+		"createdAt": "2025-05-15T15:10:24.680Z",
+		"updatedAt": "2025-05-18T19:30:25.733Z",
+		"nome": "Oasi WWF \"Grotte del Bussento\"",
+		"posizione": {
+			"type": "Point",
+			"coordinates": [40.14065, 15.552709]
+		},
+		"servizi": [
+			{
+				"nome": {
+					"it": "Servizi di visita e visita guidata dell'Oasi WWF - Grotte del Bussento"
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "L’oasi WWf può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia) con biglietto di ingresso (Biglietto Intero € 6,00, Biglietto Ridotto ragazzi dai 6 ai 14 anni e over 65 € 4,00, Bambini fino a 5 anni € 0,00, Soci WWF Italia € 0,00) e mappa del percorso. Si effettuano visite guidate in italiano per accompagnare il visitatore in un'esperienza di fruizione più completa ed emozionante dell'area.",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								},
+								{
+									"children": [],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "682603b2203ca98937b4e840"
+			},
+			{
+				"nome": {
+					"it": "Servizi di Audioguida multilingue "
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "L’oasi WWf può essere visitata autonomamente servendosi di audioguide multilingue che raccontano l'intero percorso aumentando l'esperienza di fruizione dell'area.",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "682603b9203ca98937b4e841"
+			},
+			{
+				"nome": {
+					"it": "Servizi igienici"
+				},
+				"testo": {
+					"it": {
+						"root": {
+							"children": [
+								{
+									"children": [
+										{
+											"detail": 0,
+											"format": 0,
+											"mode": "normal",
+											"style": "",
+											"text": "La biglietteria è dotata di servizi di Bagno / WC e di eventuali scarpe chiuse (necessarie per percorrere il tratto di sentiero)",
+											"type": "text",
+											"version": 1
+										}
+									],
+									"direction": "ltr",
+									"format": "",
+									"indent": 0,
+									"type": "paragraph",
+									"version": 1,
+									"textFormat": 0,
+									"textStyle": ""
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "root",
+							"version": 1
+						}
+					}
+				},
+				"id": "682603c1203ca98937b4e842"
+			}
+		],
+		"contatti": [
+			{
+				"nome": "Demetria",
+				"link": "www.grottemorigerati.it",
+				"email": "grottebussento@wwf.it",
+				"telefono": "333/6959991",
+				"id": "682603c9203ca98937b4e843"
+			}
+		],
+		"orari": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L’oasi può essere visitata tutto l’anno su prenotazione (tranne in condizioni meteo avverse; l’oasi rimane chiusa nei giorni di pioggia).",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Orari:",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per i mesi di GEN/FEB/MAR/NOV/DIC dalle 10:00 alle 16:00 su prenotazione (Chiusura biglietteria e ultimi ingresso ore 14.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per i mesi di APR/OTT dalle 10:00 alle 17:00 (Chiusura biglietteria e ultimi ingresso ore 15.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per i mesi di MAG/SET dalle 10:00 alle 18:00 (Chiusura biglietteria e ultimi ingresso ore 16.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Per i mesi di GIU/LUG/AGO dalle 10:00 alle 19:00 (Chiusura biglietteria e ultimi ingresso ore 17.00)",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"testo": {
+			"it": {
+				"root": {
+					"children": [
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "OASI WWF \"Grotte del Bussento\"",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", estesa per un'area di 607 ettari, è un’",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "oasi di protezione della fauna nata nel 1995",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " e soggetta a vincolo paesaggistico e idrogeologico - ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "riconosciuta finanche dall’UNESCO",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ", che l'ha inclusa nella prestigiosa Rete delle Riserve della Biosfera (Programma MAB; 1997), e dall’European and Global Geopark Network (2010).",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "Il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "geosito del Bussento medio-orientale",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " costituisce, infatti, uno dei complessi fluviali più interessanti dell’intero geoparco, dove la forza erosiva del fiume plasma un sistema di forre tale da farvi registrare ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "il secondo fenomeno carsico per estensione della penisola, e il più lungo del sud Italia",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ".",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "A Morigerati, in particolare, la risorgenza del fiume Bussento dà vita a un canyon profondo e suggestivo, che custodisce un habitat naturale di flora e fauna rare e protette - tra cui una ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "stazione dei muschi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " molto importante per la sua estensione e ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "diverse specie inserite in liste di tutela",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " nazionale e internazionale (Dir. Habitat, CITES, Red List IUCN) quali il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "gatto selvatico",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " (",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Felis Sylvestris",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "), il ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "lupo ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "(",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Canis Lupus",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "), la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "martora ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "(",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Martes Martes",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "), la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "puzzola ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "(",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Mustela Putorius",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ") e la ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "lontra ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "(",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 2,
+									"mode": "normal",
+									"style": "",
+									"text": "Lutra Lutra",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": ").",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": "L'Oasi WWF è gestita dalla ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "società “Morgete”",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - composta da sole ",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 1,
+									"mode": "normal",
+									"style": "",
+									"text": "donne morigeratesi",
+									"type": "text",
+									"version": 1
+								},
+								{
+									"detail": 0,
+									"format": 0,
+									"mode": "normal",
+									"style": "",
+									"text": " - ed ospita l’antico mulino ad acqua del paese, recentemente restaurato e funzionante. ",
+									"type": "text",
+									"version": 1
+								}
+							],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						},
+						{
+							"children": [],
+							"direction": "ltr",
+							"format": "",
+							"indent": 0,
+							"type": "paragraph",
+							"version": 1,
+							"textFormat": 0,
+							"textStyle": ""
+						}
+					],
+					"direction": "ltr",
+					"format": "",
+					"indent": 0,
+					"type": "root",
+					"version": 1
+				}
+			}
+		},
+		"slug": "oasi-wwf-grotte-del-bussento",
+		"slugLock": true,
+		"meta": {},
+		"__v": 0,
+		"copertina": "682a34386edbd00b4493e8be",
+		"galleria": [
+			"682a344d6edbd00b4493e8de",
+			"682a34626edbd00b4493e8fd",
+			"682a34796edbd00b4493e91c",
+			"682a34886edbd00b4493e93b",
+			"682a349b6edbd00b4493e95a",
+			"682a34b06edbd00b4493e979",
+			"682a34c56edbd00b4493e998",
+			"682a34db6edbd00b4493e9b7",
+			"682a351d6edbd00b4493ea60",
+			"682a352d6edbd00b4493ea7f",
+			"682a353e6edbd00b4493ea9e",
+			"682a354f6edbd00b4493eabd"
+		]
+	}
 ]

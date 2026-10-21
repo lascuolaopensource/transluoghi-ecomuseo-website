@@ -1,7 +1,11 @@
 import { CollectionConfig } from 'payload'
 
 import { F } from '@/db/_partials'
-import { canChangeOwnResource, canCreateAsCmsOrSocial, stampOwnerBeforeValidate } from '@/db/owned-by-social-account'
+import {
+	canChangeOwnResource,
+	canCreateAsCmsOrSocial,
+	stampOwnerBeforeValidate,
+} from '@/db/owned-by-social-account'
 import { CollectionGroup } from '@/db/utils'
 import { revalidateSocialPost, revalidateSocialPostDelete } from '@/modules/cache'
 
