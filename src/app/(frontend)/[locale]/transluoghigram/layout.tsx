@@ -1,8 +1,16 @@
 import { PixelBorder } from '@/modules/components/pixel-border'
+import { enableStaticLocale } from '@/modules/i18n'
 
 //
 
-export default async function Layout({ children }: { children: React.ReactNode }) {
+type Props = {
+	children: React.ReactNode
+	params: Promise<{ locale: string }>
+}
+
+export default async function Layout({ children, params }: Props) {
+	await enableStaticLocale(params)
+
 	return (
 		<div className="bg-itinerari">
 			<PixelBorder className="bg-black" />

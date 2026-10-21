@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { Button } from '@/modules/components/button'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
@@ -11,19 +12,18 @@ import { ServicesSection } from '@/modules/components/services-section'
 import { Video } from '@/modules/components/video'
 import { generateCollectionMetadataFactory } from '@/modules/seo'
 import { getRelation } from '@/modules/utils'
-import { getRecordBySlug, getSlug, PageWithSlugProps } from '@/modules/utils/server'
+import { loadPageBySlug, PageWithSlugProps } from '@/modules/utils/server'
 
 import { ItinerarioDetailCards } from './_partials'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('itinerari')
 
 export const generateMetadata = generateCollectionMetadataFactory('itinerari')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
-	const slug = await getSlug(pageProps)
-	const { record: itinerario } = await getRecordBySlug('itinerari', slug)
+	const itinerario = await loadPageBySlug('itinerari', pageProps)
 
 	const t = await getTranslations('itineraries')
 

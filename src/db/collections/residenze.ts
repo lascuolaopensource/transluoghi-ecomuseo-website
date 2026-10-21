@@ -3,11 +3,14 @@ import type { CollectionConfig, Field } from 'payload'
 import type { Residenze as ResidenzaType } from '@/payload-types'
 
 import { F, Section, Tab } from '@/db/_partials'
+import { mainCollectionRevalidateHooks } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
+
+const revalidate = mainCollectionRevalidateHooks('residenze')
 
 export const Residenze: CollectionConfig<'residenze'> = {
 	slug: 'residenze',
@@ -28,6 +31,11 @@ export const Residenze: CollectionConfig<'residenze'> = {
 		create: isCmsUser,
 		update: isCmsUser,
 		delete: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidate.afterChange],
+		afterDelete: [revalidate.afterDelete],
 	},
 
 	fields: [

@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
 import { Copertina } from '@/modules/components/copertina'
@@ -9,17 +10,16 @@ import { Badge } from '@/modules/components/shadcn/components/ui/badge'
 import { T } from '@/modules/components/t'
 import { generateCollectionMetadataFactory } from '@/modules/seo'
 import { formatDate } from '@/modules/utils'
-import { getRecordBySlug, getSlug, PageWithSlugProps } from '@/modules/utils/server'
+import { loadPageBySlug, PageWithSlugProps } from '@/modules/utils/server'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('articoli')
 
 export const generateMetadata = generateCollectionMetadataFactory('articoli')
 
 export default async function ArticoloPage(props: PageWithSlugProps) {
-	const slug = await getSlug(props)
-	const { record: articolo } = await getRecordBySlug('articoli', slug)
+	const articolo = await loadPageBySlug('articoli', props)
 
 	const t = await getTranslations('articoli')
 	const tTags = await getTranslations('tags')

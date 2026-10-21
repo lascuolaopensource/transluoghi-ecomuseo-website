@@ -1,7 +1,5 @@
-import { getLocale } from 'next-intl/server'
-
 import { MainCollection } from '@/modules/brand'
-import { getDb } from '@/modules/utils/server'
+import { getCachedCollectionList } from '@/modules/cache'
 
 import { CollectionCard } from './collection-card'
 import { CollectionHeading } from './collection-grid-heading'
@@ -15,15 +13,7 @@ type Props = {
 }
 
 export async function CollectionGridPage(props: Props) {
-	const db = await getDb()
-	const locale = await getLocale()
-
-	const records = await db.find({
-		collection: props.collection,
-		locale,
-		sort: 'name',
-		limit: 100,
-	})
+	const records = await getCachedCollectionList(props.collection)
 
 	return (
 		<>

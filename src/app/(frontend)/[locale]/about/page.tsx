@@ -1,22 +1,18 @@
-import { getDb } from '#/utils/server'
-import { getLocale } from 'next-intl/server'
+import { enableStaticLocale } from '@/modules/i18n'
 
+import { getCachedGlobal } from '@/modules/cache'
 import { SimplePage } from '@/modules/components/simple-page'
 import { generateGlobalMetadataFactory } from '@/modules/seo'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 //
 
-export const dynamic = 'force-dynamic'
-
 export const generateMetadata = generateGlobalMetadataFactory('chi-siamo')
 
-export default async function AboutPage() {
-	const locale = await getLocale()
-	const db = await getDb()
-	const chiSiamo = await db.findGlobal({
-		slug: 'chi-siamo',
-		locale,
-	})
+export default async function AboutPage(props: PageWithLocaleProps) {
+	await enableStaticLocale(props.params)
+
+	const chiSiamo = await getCachedGlobal('chi-siamo')
 
 	return (
 		<SimplePage

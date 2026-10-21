@@ -14,6 +14,9 @@ import { validateUser } from './_partials/utils'
 
 //
 
+/** Auth + per-user posts: never share across requests. */
+export const dynamic = 'force-dynamic'
+
 export default async function Page() {
 	const payload = await getDb()
 

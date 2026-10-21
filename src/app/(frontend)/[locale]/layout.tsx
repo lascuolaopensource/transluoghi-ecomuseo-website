@@ -9,7 +9,8 @@ import React from 'react'
 
 import { Footer } from '@/modules/components/footer'
 import { Navbar } from '@/modules/components/navbar'
-import { hasLocale } from '@/modules/i18n'
+import { enableStaticLocale, hasLocale } from '@/modules/i18n'
+import { routing } from '@/modules/i18n/routing'
 
 //
 
@@ -18,11 +19,17 @@ type Props = {
 	params: Promise<{ locale: string }>
 }
 
+export function generateStaticParams() {
+	return routing.locales.map((locale) => ({ locale }))
+}
+
 export default async function RootLayout(props: Props) {
 	const { children, params } = props
 
 	const { locale } = await params
 	if (!hasLocale(locale)) notFound()
+
+	await enableStaticLocale(locale)
 
 	return (
 		<html lang="en" className={cn(transluoghiPixelsFont.variable, transinstrumentFont.variable)}>

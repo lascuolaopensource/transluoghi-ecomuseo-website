@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
 import { Copertina } from '@/modules/components/copertina'
@@ -10,7 +11,7 @@ import { RichText } from '@/modules/components/richtext'
 import { T } from '@/modules/components/t'
 import { generateCollectionMetadataFactory } from '@/modules/seo'
 import { formatDate } from '@/modules/utils'
-import { getRecordBySlug, getSlug, PageWithSlugProps } from '@/modules/utils/server'
+import { loadPageBySlug, PageWithSlugProps } from '@/modules/utils/server'
 
 import { InfoResidenza } from './_partials/info-residenza'
 import { PersoneSection } from './_partials/persone-section'
@@ -18,13 +19,12 @@ import { ProgrammaSection } from './_partials/programma-section'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('residenze')
 
 export const generateMetadata = generateCollectionMetadataFactory('residenze')
 
 export default async function ResidenzaSlug(props: PageWithSlugProps) {
-	const slug = await getSlug(props)
-	const { record: residenza } = await getRecordBySlug('residenze', slug)
+	const residenza = await loadPageBySlug('residenze', props)
 	const t = await getTranslations('residenze')
 
 	const startDate = formatDate(residenza.start_date)

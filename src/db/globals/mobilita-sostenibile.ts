@@ -1,6 +1,7 @@
 import type { GlobalConfig } from 'payload'
 
 import { Tab } from '@/db/_partials'
+import { revalidateMobilita } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 
@@ -13,6 +14,10 @@ export const MobilitaSostenibile: GlobalConfig = {
 	access: {
 		read: () => true,
 		update: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidateMobilita],
 	},
 
 	fields: [

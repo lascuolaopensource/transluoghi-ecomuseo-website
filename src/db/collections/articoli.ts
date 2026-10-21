@@ -1,11 +1,14 @@
 import { CollectionConfig } from 'payload'
 
 import { F, Section, Tab } from '@/db/_partials'
+import { mainCollectionRevalidateHooks } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
+
+const revalidate = mainCollectionRevalidateHooks('articoli')
 
 export const Articoli: CollectionConfig<'articoli'> = {
 	slug: 'articoli',
@@ -26,6 +29,11 @@ export const Articoli: CollectionConfig<'articoli'> = {
 		create: isCmsUser,
 		update: isCmsUser,
 		delete: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidate.afterChange],
+		afterDelete: [revalidate.afterDelete],
 	},
 
 	fields: [

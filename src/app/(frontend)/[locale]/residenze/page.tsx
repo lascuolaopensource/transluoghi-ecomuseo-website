@@ -1,19 +1,23 @@
-import { getLocale, getTranslations } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 
 import { Button } from '@/modules/components/button'
 import { CollectionHeading } from '@/modules/components/collection-grid-heading'
 import { Container } from '@/modules/components/container'
 import { EmptyState } from '@/modules/components/empty-state'
 import { T } from '@/modules/components/t'
+import { enableStaticLocale, getAppLocale } from '@/modules/i18n'
 import { getDb } from '@/modules/utils/server'
 
 import CardResidenza from './_partials/card-residenza'
 
 //
 
+/** Time-based filter + searchParams: keep request-time rendering. */
 export const dynamic = 'force-dynamic'
 
 export default async function ResidenzePage(props: PageProps) {
+	await enableStaticLocale(props.params)
+
 	const { filter, residenze } = await getPageData(props)
 	const t = await getTranslations('residenze')
 
@@ -73,6 +77,7 @@ const FILTER_PARAM = 'filter'
 type FilterType = 'archivio' | 'programma'
 
 interface PageProps {
+	params: Promise<{ locale: string }>
 	searchParams: Promise<{ [FILTER_PARAM]?: FilterType } | undefined | null>
 }
 
@@ -82,7 +87,7 @@ async function getPageData(props: PageProps) {
 	const filter: FilterType = params?.[FILTER_PARAM] ?? 'programma'
 
 	const db = await getDb()
-	const locale = await getLocale()
+	const locale = await getAppLocale()
 	const today = new Date().toISOString()
 
 	const { docs: residenze } = await db.find({

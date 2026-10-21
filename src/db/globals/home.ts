@@ -1,6 +1,7 @@
 import type { CollectionSlug, GlobalConfig, RelationshipField } from 'payload'
 
 import * as F from '@/db/_partials/fields'
+import { revalidateHome } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 
@@ -13,6 +14,10 @@ export const Home: GlobalConfig<'home'> = {
 	access: {
 		read: () => true,
 		update: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidateHome],
 	},
 
 	fields: [

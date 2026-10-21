@@ -5,9 +5,10 @@ import { Gallery } from '#/components/gallery'
 import { Map } from '#/components/map/map'
 import { RichText } from '#/components/richtext'
 import { ServicesSection } from '#/components/services-section'
-import { getRecordBySlug, getSlug, PageWithSlugProps } from '#/utils/server'
+import { loadPageBySlug, PageWithSlugProps } from '#/utils/server'
 import { getTranslations } from 'next-intl/server'
 
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { ContactsSection } from '@/modules/components/contacts-section'
 import { InfoSection } from '@/modules/components/info-section'
 import { generateCollectionMetadataFactory } from '@/modules/seo'
@@ -15,13 +16,12 @@ import { Luoghi } from '@/payload-types'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('luoghi')
 
 export const generateMetadata = generateCollectionMetadataFactory('luoghi')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
-	const slug = await getSlug(pageProps)
-	const { record: luogo } = await getRecordBySlug('luoghi', slug)
+	const luogo = await loadPageBySlug('luoghi', pageProps)
 
 	const t = await getTranslations('luoghi')
 

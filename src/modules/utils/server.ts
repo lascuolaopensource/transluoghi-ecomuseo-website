@@ -1,19 +1,13 @@
-import config from '@payload-config'
-import { getLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import {
-	CollectionSlug,
-	DataFromCollectionSlug,
-	getPayload,
-	PaginatedDocs,
-	type Payload,
-} from 'payload'
+import { DataFromCollectionSlug, PaginatedDocs } from 'payload'
 
-//
+import type { MainCollection } from '@/modules/brand'
+import { getCachedDocumentBySlug } from '@/modules/cache'
+import { enableStaticLocale } from '@/modules/i18n'
 
-export async function getDb(): Promise<Payload> {
-	return getPayload({ config }) as Promise<Payload>
-}
+import { getDb } from './get-db'
+
+export { getDb }
 
 export function getOne<Docs extends PaginatedDocs>(docs: Docs): Docs['docs'][number] {
 	const doc = docs.docs[0]
@@ -29,7 +23,14 @@ export interface PageProps {
 
 export interface PageWithSlugProps {
 	params: Promise<{
+		locale: string
 		slug: string
+	}>
+}
+
+export interface PageWithLocaleProps {
+	params: Promise<{
+		locale: string
 	}>
 }
 
@@ -37,33 +38,20 @@ export async function getSlug(pageProps: PageWithSlugProps): Promise<string> {
 	return (await pageProps.params).slug
 }
 
-//
-
-type GetBySlugResult<C extends CollectionSlug> = {
-	record: DataFromCollectionSlug<C>
-	db: Payload
-	locale: string
-}
-
-export async function getRecordBySlug<C extends CollectionSlug>(
+export async function getRecordBySlug<C extends MainCollection>(
 	collection: C,
 	slug: string,
-): Promise<GetBySlugResult<C>> {
-	const db = await getDb()
-	const locale = await getLocale()
+): Promise<DataFromCollectionSlug<C>> {
+	const record = await getCachedDocumentBySlug(collection, slug)
+	if (!record) return notFound()
+	return record
+}
 
-	const result = await db.find({
-		collection,
-		depth: 2,
-		locale,
-		where: { slug: { equals: slug } },
-	})
-
-	const record = getOne(result)
-
-	return {
-		record,
-		db,
-		locale,
-	}
+/** enableStaticLocale + load a main-collection doc for a slug page. */
+export async function loadPageBySlug<C extends MainCollection>(
+	collection: C,
+	props: PageWithSlugProps,
+): Promise<DataFromCollectionSlug<C>> {
+	await enableStaticLocale(props.params)
+	return getRecordBySlug(collection, await getSlug(props))
 }

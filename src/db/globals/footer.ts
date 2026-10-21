@@ -1,6 +1,7 @@
 import type { GlobalConfig } from 'payload'
 
 import { F } from '@/db/_partials'
+import { revalidateFooter } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 
@@ -13,6 +14,10 @@ export const Footer: GlobalConfig = {
 	access: {
 		read: () => true,
 		update: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidateFooter],
 	},
 
 	fields: [
