@@ -40,13 +40,13 @@ export function useLoadItems(options: UseLoadItemsOptions = {}): UseLoadItemsRet
 	const [error, setError] = useState<Error | null>(null)
 	const [hasNextPage, setHasNextPage] = useState(startingHasNextPage)
 	const [page, setPage] = useState(startingPage)
-	const [initialLoad, setInitialLoad] = useState(!hasInitialPage)
 
 	// Store values in refs to avoid recreating loadMore callback
 	const loadingRef = useRef(loading)
 	const hasNextPageRef = useRef(hasNextPage)
 	const pageRef = useRef(page)
 	const optionsRef = useRef({ limit, sort, depth })
+	const didInitialFetch = useRef(false)
 
 	// Keep refs in sync with state
 	useEffect(() => {
@@ -102,12 +102,10 @@ export function useLoadItems(options: UseLoadItemsOptions = {}): UseLoadItemsRet
 	}, [])
 
 	useEffect(() => {
-		if (initialLoad) {
-			loadMore()
-			setInitialLoad(false)
-		}
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [initialLoad])
+		if (hasInitialPage || didInitialFetch.current) return
+		didInitialFetch.current = true
+		void loadMore()
+	}, [hasInitialPage, loadMore])
 
 	return {
 		loading,
