@@ -3,7 +3,7 @@ import { DataFromCollectionSlug, PaginatedDocs } from 'payload'
 
 import type { MainCollection } from '@/modules/brand'
 import { getCachedDocumentBySlug } from '@/modules/cache'
-import { getAppLocale } from '@/modules/i18n'
+import { enableStaticLocale } from '@/modules/i18n'
 
 import { getDb } from './get-db'
 
@@ -38,23 +38,20 @@ export async function getSlug(pageProps: PageWithSlugProps): Promise<string> {
 	return (await pageProps.params).slug
 }
 
-//
-
-type GetBySlugResult<C extends MainCollection> = {
-	record: DataFromCollectionSlug<C>
-	locale: string
-}
-
 export async function getRecordBySlug<C extends MainCollection>(
 	collection: C,
 	slug: string,
-): Promise<GetBySlugResult<C>> {
-	const locale = await getAppLocale()
-	const record = await getCachedDocumentBySlug(collection, slug, locale)
+): Promise<DataFromCollectionSlug<C>> {
+	const record = await getCachedDocumentBySlug(collection, slug)
 	if (!record) return notFound()
+	return record
+}
 
-	return {
-		record,
-		locale,
-	}
+/** enableStaticLocale + load a main-collection doc for a slug page. */
+export async function loadPageBySlug<C extends MainCollection>(
+	collection: C,
+	props: PageWithSlugProps,
+): Promise<DataFromCollectionSlug<C>> {
+	await enableStaticLocale(props.params)
+	return getRecordBySlug(collection, await getSlug(props))
 }

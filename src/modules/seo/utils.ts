@@ -23,13 +23,13 @@ export function generateCollectionMetadataFactory<C extends MainCollection>(coll
 	return async function (props: PageWithSlugProps): Promise<Metadata> {
 		const { slug } = await props.params
 		const record = await getRecordBySlug(collection, slug)
-		return generateMeta({ doc: record.record })
+		return generateMeta({ doc: record })
 	}
 }
 
 export function generateGlobalMetadataFactory<G extends GlobalSlug>(global: G) {
 	return async function (): Promise<Metadata> {
-		const record = await getCachedGlobal(global, await getAppLocale())
+		const record = await getCachedGlobal(global)
 		return generateMeta({ doc: record as WithMeta })
 	}
 }

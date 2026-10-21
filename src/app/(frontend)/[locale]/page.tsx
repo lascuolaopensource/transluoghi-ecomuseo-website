@@ -19,12 +19,12 @@ export const generateMetadata = generateGlobalMetadataFactory('home')
 //
 
 export default async function Page(props: PageWithLocaleProps) {
-	const locale = await enableStaticLocale(props.params)
+	await enableStaticLocale(props.params)
 
-	const home = await getCachedGlobal('home', locale)
+	const home = await getCachedGlobal('home')
 	const { itinerari: itinerariSection, luoghi, residenze } = home.sections
 
-	const itinerari = await getCachedHomeItinerariTracks(locale)
+	const itinerari = await getCachedHomeItinerariTracks()
 
 	const tracciati = itinerari.docs
 		.map((i) => getRelation(i.gpx_track)?.url)

@@ -1,6 +1,5 @@
 import { MainCollection, getSectionDisplayData } from '@/modules/brand'
 import { getCachedGlobal } from '@/modules/cache'
-import { getAppLocale } from '@/modules/i18n'
 
 import { PixelBorder } from './pixel-border'
 import { RichText } from './richtext'
@@ -15,7 +14,7 @@ interface CollectionHeadingProps {
 export async function CollectionHeading(props: CollectionHeadingProps) {
 	const { collection } = props
 
-	const testiGlobal = await getCachedGlobal('testi', await getAppLocale())
+	const testiGlobal = await getCachedGlobal('testi')
 
 	const testi = testiGlobal[collection]
 	if (!testi) {

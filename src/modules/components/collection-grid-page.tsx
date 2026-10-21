@@ -1,6 +1,5 @@
 import { MainCollection } from '@/modules/brand'
 import { getCachedCollectionList } from '@/modules/cache'
-import { getAppLocale } from '@/modules/i18n'
 
 import { CollectionCard } from './collection-card'
 import { CollectionHeading } from './collection-grid-heading'
@@ -14,7 +13,7 @@ type Props = {
 }
 
 export async function CollectionGridPage(props: Props) {
-	const records = await getCachedCollectionList(props.collection, await getAppLocale())
+	const records = await getCachedCollectionList(props.collection)
 
 	return (
 		<>

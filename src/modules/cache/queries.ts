@@ -8,45 +8,51 @@ import type {
 } from 'payload'
 
 import type { MainCollection } from '@/modules/brand'
-import type { Locale } from '@/modules/i18n'
+import { getAppLocale, type Locale } from '@/modules/i18n'
 import { getDb } from '@/modules/utils/get-db'
 
 import { collectionListTag, documentTag, globalTag, socialFeedTag } from './tags'
 
 //
 
+async function localeOrDefault(locale?: Locale): Promise<Locale> {
+	return locale ?? (await getAppLocale())
+}
+
 export async function getCachedGlobal<G extends GlobalSlug>(
 	slug: G,
-	locale: Locale,
+	locale?: Locale,
 	depth = 2,
 ): Promise<DataFromGlobalSlug<G>> {
+	const loc = await localeOrDefault(locale)
 	return unstable_cache(
 		async () => {
 			const db = await getDb()
 			return db.findGlobal({
 				slug,
-				locale: locale as TypedLocale,
+				locale: loc as TypedLocale,
 				depth,
 				overrideAccess: false,
 			})
 		},
-		['global', slug, locale, String(depth)],
-		{ tags: [globalTag(slug, locale)] },
+		['global', slug, loc, String(depth)],
+		{ tags: [globalTag(slug, loc)] },
 	)()
 }
 
 export async function getCachedDocumentBySlug<C extends MainCollection>(
 	collection: C,
 	slug: string,
-	locale: Locale,
+	locale?: Locale,
 ): Promise<DataFromCollectionSlug<C> | null> {
+	const loc = await localeOrDefault(locale)
 	return unstable_cache(
 		async () => {
 			const db = await getDb()
 			const result = await db.find({
 				collection,
 				depth: 2,
-				locale: locale as TypedLocale,
+				locale: loc as TypedLocale,
 				limit: 1,
 				pagination: false,
 				overrideAccess: false,
@@ -54,41 +60,42 @@ export async function getCachedDocumentBySlug<C extends MainCollection>(
 			})
 			return result.docs[0] ?? null
 		},
-		['document', collection, slug, locale],
-		{ tags: [documentTag(collection, slug, locale)] },
+		['document', collection, slug, loc],
+		{ tags: [documentTag(collection, slug, loc)] },
 	)()
 }
 
 export async function getCachedCollectionList<C extends MainCollection>(
 	collection: C,
-	locale: Locale,
-	options?: { sort?: string },
+	options?: { sort?: string; locale?: Locale },
 ): Promise<PaginatedDocs<DataFromCollectionSlug<C>>> {
+	const loc = await localeOrDefault(options?.locale)
 	const sort = options?.sort ?? 'name'
 	return unstable_cache(
 		async () => {
 			const db = await getDb()
 			return db.find({
 				collection,
-				locale: locale as TypedLocale,
+				locale: loc as TypedLocale,
 				sort,
 				limit: 100,
 				depth: 1,
 				overrideAccess: false,
 			})
 		},
-		['collection-list', collection, locale, sort],
-		{ tags: [collectionListTag(collection, locale)] },
+		['collection-list', collection, loc, sort],
+		{ tags: [collectionListTag(collection, loc)] },
 	)()
 }
 
-export async function getCachedHomeItinerariTracks(locale: Locale) {
+export async function getCachedHomeItinerariTracks(locale?: Locale) {
+	const loc = await localeOrDefault(locale)
 	return unstable_cache(
 		async () => {
 			const db = await getDb()
 			return db.find({
 				collection: 'itinerari',
-				locale: locale as TypedLocale,
+				locale: loc as TypedLocale,
 				depth: 1,
 				limit: 100,
 				pagination: false,
@@ -99,9 +106,9 @@ export async function getCachedHomeItinerariTracks(locale: Locale) {
 				},
 			})
 		},
-		['home-itinerari-tracks', locale],
+		['home-itinerari-tracks', loc],
 		{
-			tags: [collectionListTag('itinerari', locale), globalTag('home', locale)],
+			tags: [collectionListTag('itinerari', loc), globalTag('home', loc)],
 		},
 	)()
 }

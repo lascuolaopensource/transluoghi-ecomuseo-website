@@ -10,9 +10,9 @@ import type { PageWithLocaleProps } from '@/modules/utils/server'
 export const generateMetadata = generateGlobalMetadataFactory('chi-siamo')
 
 export default async function AboutPage(props: PageWithLocaleProps) {
-	const locale = await enableStaticLocale(props.params)
+	await enableStaticLocale(props.params)
 
-	const chiSiamo = await getCachedGlobal('chi-siamo', locale)
+	const chiSiamo = await getCachedGlobal('chi-siamo')
 
 	return (
 		<SimplePage

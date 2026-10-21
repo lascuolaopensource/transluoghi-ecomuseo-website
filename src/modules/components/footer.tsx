@@ -1,5 +1,5 @@
 import { getCachedGlobal } from '@/modules/cache'
-import { getAppLocale, Link } from '@/modules/i18n'
+import { Link } from '@/modules/i18n'
 import type { Footer as FooterType } from '@/payload-types'
 
 import { Container } from './container'
@@ -11,7 +11,7 @@ import { cn } from './shadcn/lib/utils'
 //
 
 export async function Footer() {
-	const footer = await getCachedGlobal('footer', await getAppLocale())
+	const footer = await getCachedGlobal('footer')
 
 	return (
 		<>

@@ -4,10 +4,8 @@ import { Copertina } from '#/components/copertina'
 import { Gallery } from '#/components/gallery'
 import { Map } from '#/components/map/map'
 import { RichText } from '#/components/richtext'
-import { getRecordBySlug, getSlug, PageWithSlugProps } from '#/utils/server'
+import { loadPageBySlug, PageWithSlugProps } from '#/utils/server'
 import { getTranslations } from 'next-intl/server'
-
-import { enableStaticLocale } from '@/modules/i18n'
 
 import { generateCollectionStaticParams } from '@/modules/cache'
 import { ContactsSection } from '@/modules/components/contacts-section'
@@ -20,10 +18,7 @@ export const generateStaticParams = () => generateCollectionStaticParams('person
 export const generateMetadata = generateCollectionMetadataFactory('persone')
 
 export default async function Persona(pageProps: PageWithSlugProps) {
-	await enableStaticLocale(pageProps.params)
-
-	const slug = await getSlug(pageProps)
-	const { record: persona } = await getRecordBySlug('persone', slug)
+	const persona = await loadPageBySlug('persone', pageProps)
 
 	const t = await getTranslations('persone')
 

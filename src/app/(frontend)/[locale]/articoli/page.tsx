@@ -15,9 +15,9 @@ import { Articoli } from '@/payload-types'
 //
 
 export default async function NewsPage(props: PageWithLocaleProps) {
-	const locale = await enableStaticLocale(props.params)
+	await enableStaticLocale(props.params)
 
-	const articoli = await getCachedCollectionList('articoli', locale, { sort: '-date' })
+	const articoli = await getCachedCollectionList('articoli', { sort: '-date' })
 
 	return (
 		<>
