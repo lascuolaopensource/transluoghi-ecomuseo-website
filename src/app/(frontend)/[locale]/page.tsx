@@ -19,8 +19,7 @@ export const generateMetadata = generateGlobalMetadataFactory('home')
 //
 
 export default async function Page(props: PageWithLocaleProps) {
-	const { locale: localeParam } = await props.params
-	const locale = enableStaticLocale(localeParam)
+	const locale = await enableStaticLocale(props.params)
 
 	const home = await getCachedGlobal('home', locale)
 	const { itinerari: itinerariSection, luoghi, residenze } = home.sections

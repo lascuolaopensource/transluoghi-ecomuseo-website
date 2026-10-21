@@ -6,7 +6,7 @@ import type { PageWithLocaleProps } from '@/modules/utils/server'
 //
 
 export default async function Page(props: PageWithLocaleProps) {
-	enableStaticLocale((await props.params).locale)
+	await enableStaticLocale(props.params)
 
 	return <CollectionGridPage collection="luoghi" />
 }

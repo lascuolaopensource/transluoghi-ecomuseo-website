@@ -1,8 +1,6 @@
-import { getLocale } from 'next-intl/server'
-
 import { MainCollection, getSectionDisplayData } from '@/modules/brand'
 import { getCachedGlobal } from '@/modules/cache'
-import type { Locale } from '@/modules/i18n'
+import { getAppLocale } from '@/modules/i18n'
 
 import { PixelBorder } from './pixel-border'
 import { RichText } from './richtext'
@@ -17,8 +15,7 @@ interface CollectionHeadingProps {
 export async function CollectionHeading(props: CollectionHeadingProps) {
 	const { collection } = props
 
-	const locale = (await getLocale()) as Locale
-	const testiGlobal = await getCachedGlobal('testi', locale)
+	const testiGlobal = await getCachedGlobal('testi', await getAppLocale())
 
 	const testi = testiGlobal[collection]
 	if (!testi) {

@@ -25,7 +25,7 @@ export const generateStaticParams = () => generateCollectionStaticParams('itiner
 export const generateMetadata = generateCollectionMetadataFactory('itinerari')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
-	enableStaticLocale((await pageProps.params).locale)
+	await enableStaticLocale(pageProps.params)
 
 	const slug = await getSlug(pageProps)
 	const { record: itinerario } = await getRecordBySlug('itinerari', slug)

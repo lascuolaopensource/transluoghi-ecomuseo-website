@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 
-import { getLocale } from 'next-intl/server'
 import { GlobalSlug } from 'payload'
 
 import type { Home, Media } from '@/payload-types'
 
 import { getCachedGlobal } from '@/modules/cache'
-import type { Locale } from '@/modules/i18n'
+import { getAppLocale } from '@/modules/i18n'
 
 import { MainCollection } from '../brand'
 import { brandText } from '../brand/text'
@@ -30,8 +29,7 @@ export function generateCollectionMetadataFactory<C extends MainCollection>(coll
 
 export function generateGlobalMetadataFactory<G extends GlobalSlug>(global: G) {
 	return async function (): Promise<Metadata> {
-		const locale = (await getLocale()) as Locale
-		const record = await getCachedGlobal(global, locale)
+		const record = await getCachedGlobal(global, await getAppLocale())
 		return generateMeta({ doc: record as WithMeta })
 	}
 }
@@ -40,7 +38,7 @@ export function generateGlobalMetadataFactory<G extends GlobalSlug>(global: G) {
 
 async function generateMeta(args: { doc: WithMeta | null | undefined }): Promise<Metadata> {
 	const { doc } = args
-	const locale = await getLocale()
+	const locale = await getAppLocale()
 	const payload = await getDb()
 
 	const title = doc?.meta?.title ? doc?.meta?.title : brandText.title

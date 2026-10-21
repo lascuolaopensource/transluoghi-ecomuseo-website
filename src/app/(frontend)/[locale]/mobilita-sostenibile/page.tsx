@@ -10,8 +10,7 @@ import type { PageWithLocaleProps } from '@/modules/utils/server'
 export const generateMetadata = generateGlobalMetadataFactory('mobilita-sostenibile')
 
 export default async function MobilitaSostenibilePage(props: PageWithLocaleProps) {
-	const { locale: localeParam } = await props.params
-	const locale = enableStaticLocale(localeParam)
+	const locale = await enableStaticLocale(props.params)
 
 	const mobilitaSostenibile = await getCachedGlobal('mobilita-sostenibile', locale)
 

@@ -23,7 +23,7 @@ export const generateStaticParams = () => generateCollectionStaticParams('luoghi
 export const generateMetadata = generateCollectionMetadataFactory('luoghi')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
-	enableStaticLocale((await pageProps.params).locale)
+	await enableStaticLocale(pageProps.params)
 
 	const slug = await getSlug(pageProps)
 	const { record: luogo } = await getRecordBySlug('luoghi', slug)

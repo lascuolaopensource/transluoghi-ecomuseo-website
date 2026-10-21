@@ -21,7 +21,7 @@ export const generateStaticParams = () => generateCollectionStaticParams('artico
 export const generateMetadata = generateCollectionMetadataFactory('articoli')
 
 export default async function ArticoloPage(props: PageWithSlugProps) {
-	enableStaticLocale((await props.params).locale)
+	await enableStaticLocale(props.params)
 
 	const slug = await getSlug(props)
 	const { record: articolo } = await getRecordBySlug('articoli', slug)

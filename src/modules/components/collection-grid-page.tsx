@@ -1,8 +1,6 @@
-import { getLocale } from 'next-intl/server'
-
 import { MainCollection } from '@/modules/brand'
 import { getCachedCollectionList } from '@/modules/cache'
-import type { Locale } from '@/modules/i18n'
+import { getAppLocale } from '@/modules/i18n'
 
 import { CollectionCard } from './collection-card'
 import { CollectionHeading } from './collection-grid-heading'
@@ -16,8 +14,7 @@ type Props = {
 }
 
 export async function CollectionGridPage(props: Props) {
-	const locale = (await getLocale()) as Locale
-	const records = await getCachedCollectionList(props.collection, locale)
+	const records = await getCachedCollectionList(props.collection, await getAppLocale())
 
 	return (
 		<>

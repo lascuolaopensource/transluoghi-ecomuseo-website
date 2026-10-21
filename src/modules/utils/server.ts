@@ -1,10 +1,9 @@
-import { getLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { DataFromCollectionSlug, PaginatedDocs } from 'payload'
 
 import type { MainCollection } from '@/modules/brand'
 import { getCachedDocumentBySlug } from '@/modules/cache'
-import type { Locale } from '@/modules/i18n'
+import { getAppLocale } from '@/modules/i18n'
 
 import { getDb } from './get-db'
 
@@ -50,7 +49,7 @@ export async function getRecordBySlug<C extends MainCollection>(
 	collection: C,
 	slug: string,
 ): Promise<GetBySlugResult<C>> {
-	const locale = (await getLocale()) as Locale
+	const locale = await getAppLocale()
 	const record = await getCachedDocumentBySlug(collection, slug, locale)
 	if (!record) return notFound()
 

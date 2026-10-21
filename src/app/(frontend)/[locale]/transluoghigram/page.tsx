@@ -13,7 +13,7 @@ import { PostsList } from './_components/posts-list'
 //
 
 export default async function Page(props: PageWithLocaleProps) {
-	enableStaticLocale((await props.params).locale)
+	await enableStaticLocale(props.params)
 
 	const t = await getTranslations('transluoghigram')
 	const posts = await getCachedSocialFeed(10)

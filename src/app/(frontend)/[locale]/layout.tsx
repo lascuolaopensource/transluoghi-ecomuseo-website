@@ -29,7 +29,7 @@ export default async function RootLayout(props: Props) {
 	const { locale } = await params
 	if (!hasLocale(locale)) notFound()
 
-	enableStaticLocale(locale)
+	await enableStaticLocale(locale)
 
 	return (
 		<html lang="en" className={cn(transluoghiPixelsFont.variable, transinstrumentFont.variable)}>

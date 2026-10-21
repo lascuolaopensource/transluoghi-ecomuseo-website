@@ -1,11 +1,11 @@
-import { getLocale, getTranslations } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 
 import { Button } from '@/modules/components/button'
-import { enableStaticLocale } from '@/modules/i18n'
 import { CollectionHeading } from '@/modules/components/collection-grid-heading'
 import { Container } from '@/modules/components/container'
 import { EmptyState } from '@/modules/components/empty-state'
 import { T } from '@/modules/components/t'
+import { enableStaticLocale, getAppLocale } from '@/modules/i18n'
 import { getDb } from '@/modules/utils/server'
 
 import CardResidenza from './_partials/card-residenza'
@@ -16,7 +16,7 @@ import CardResidenza from './_partials/card-residenza'
 export const dynamic = 'force-dynamic'
 
 export default async function ResidenzePage(props: PageProps) {
-	enableStaticLocale((await props.params).locale)
+	await enableStaticLocale(props.params)
 
 	const { filter, residenze } = await getPageData(props)
 	const t = await getTranslations('residenze')
@@ -87,7 +87,7 @@ async function getPageData(props: PageProps) {
 	const filter: FilterType = params?.[FILTER_PARAM] ?? 'programma'
 
 	const db = await getDb()
-	const locale = await getLocale()
+	const locale = await getAppLocale()
 	const today = new Date().toISOString()
 
 	const { docs: residenze } = await db.find({

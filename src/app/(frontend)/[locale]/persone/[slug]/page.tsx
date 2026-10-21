@@ -20,7 +20,7 @@ export const generateStaticParams = () => generateCollectionStaticParams('person
 export const generateMetadata = generateCollectionMetadataFactory('persone')
 
 export default async function Persona(pageProps: PageWithSlugProps) {
-	enableStaticLocale((await pageProps.params).locale)
+	await enableStaticLocale(pageProps.params)
 
 	const slug = await getSlug(pageProps)
 	const { record: persona } = await getRecordBySlug('persone', slug)

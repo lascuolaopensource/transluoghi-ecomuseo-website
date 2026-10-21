@@ -9,7 +9,7 @@ type Props = {
 }
 
 export default async function Layout({ children, params }: Props) {
-	enableStaticLocale((await params).locale)
+	await enableStaticLocale(params)
 
 	return (
 		<div className="bg-itinerari">
