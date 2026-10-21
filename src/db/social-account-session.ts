@@ -13,12 +13,13 @@ import {
 } from 'payload'
 import { parseCookies } from 'payload/shared'
 
+import type { SocialAccount } from '@/payload-types'
+
 import {
 	socialAccountClearedCookie,
 	socialAccountCookieName,
 	socialAccountSessionCookie,
 } from '@/db/auth-cookies'
-import type { SocialAccount } from '@/payload-types'
 
 //
 

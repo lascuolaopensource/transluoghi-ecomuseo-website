@@ -1,9 +1,9 @@
-import { enableStaticLocale } from '@/modules/i18n'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { getCachedGlobal } from '@/modules/cache'
 import { SimplePage } from '@/modules/components/simple-page'
+import { enableStaticLocale } from '@/modules/i18n'
 import { generateGlobalMetadataFactory } from '@/modules/seo'
-import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 //
 

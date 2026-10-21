@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { DataFromCollectionSlug, PaginatedDocs } from 'payload'
 
 import type { MainCollection } from '@/modules/brand'
+
 import { getCachedDocumentBySlug } from '@/modules/cache'
 import { enableStaticLocale } from '@/modules/i18n'
 

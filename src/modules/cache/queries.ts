@@ -1,4 +1,3 @@
-import { unstable_cache } from 'next/cache'
 import type {
 	DataFromCollectionSlug,
 	DataFromGlobalSlug,
@@ -7,7 +6,10 @@ import type {
 	TypedLocale,
 } from 'payload'
 
+import { unstable_cache } from 'next/cache'
+
 import type { MainCollection } from '@/modules/brand'
+
 import { getAppLocale, type Locale } from '@/modules/i18n'
 import { getDb } from '@/modules/utils/get-db'
 

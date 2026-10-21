@@ -1,4 +1,5 @@
 import type { Collection, IncomingAuthType } from 'payload'
+
 import { generateCookie, getCookieExpiration } from 'payload/shared'
 
 // Shared by every auth collection so a later cookie name still inherits Secure.
