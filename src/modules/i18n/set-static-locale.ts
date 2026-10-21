@@ -18,8 +18,7 @@ export async function getAppLocale(): Promise<Locale> {
 export async function enableStaticLocale(
 	localeOrParams: string | Promise<LocaleParams>,
 ): Promise<Locale> {
-	const locale =
-		typeof localeOrParams === 'string' ? localeOrParams : (await localeOrParams).locale
+	const locale = typeof localeOrParams === 'string' ? localeOrParams : (await localeOrParams).locale
 
 	setRequestLocale(locale as Locale)
 	return locale as Locale

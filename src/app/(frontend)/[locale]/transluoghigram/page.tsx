@@ -1,12 +1,12 @@
 import { getTranslations } from 'next-intl/server'
 
-import { enableStaticLocale } from '@/modules/i18n'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { getCachedSocialFeed } from '@/modules/cache'
 import { Button } from '@/modules/components/button'
 import { EmptyState } from '@/modules/components/empty-state'
 import { T } from '@/modules/components/t'
-import type { PageWithLocaleProps } from '@/modules/utils/server'
+import { enableStaticLocale } from '@/modules/i18n'
 
 import { PostsList } from './_components/posts-list'
 

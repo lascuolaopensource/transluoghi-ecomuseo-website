@@ -4,9 +4,9 @@ Il feed pubblico è nel menu: **Transluoghigram**. Login e gestione dei tuoi pos
 
 ## Indirizzi che non sono nel menu
 
-| Pagina | Indirizzo |
-| --- | --- |
-| Accesso | `/it/transluoghigram/login` |
+| Pagina      | Indirizzo                     |
+| ----------- | ----------------------------- |
+| Accesso     | `/it/transluoghigram/login`   |
 | I tuoi post | `/it/transluoghigram/account` |
 
 Salvali. Dal feed non c’è un pulsante per entrare.
@@ -21,11 +21,11 @@ Email e password te le dà un amministratore. Non puoi registrarti e non puoi re
 
 Su **I tuoi post**, premi **Crea post**.
 
-| Campo | Regola |
-| --- | --- |
-| **Testo** | Obbligatorio. È la didascalia nel feed. |
-| **Link** | Facoltativo. Deve essere un indirizzo completo (`https://…`). Nel feed si apre in una nuova scheda. |
-| **Media** | Facoltativo. Foto o video: JPEG, PNG, WebP, GIF, MP4, WebM. Massimo 5 MB. |
+| Campo     | Regola                                                                                              |
+| --------- | --------------------------------------------------------------------------------------------------- |
+| **Testo** | Obbligatorio. È la didascalia nel feed.                                                             |
+| **Link**  | Facoltativo. Deve essere un indirizzo completo (`https://…`). Nel feed si apre in una nuova scheda. |
+| **Media** | Facoltativo. Foto o video: JPEG, PNG, WebP, GIF, MP4, WebM. Massimo 5 MB.                           |
 
 Un post può essere solo testo, testo con link, oppure testo con un file. Il file non si sostituisce dopo: per cambiare foto o video, elimina il post e creane uno nuovo.
 

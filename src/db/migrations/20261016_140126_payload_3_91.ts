@@ -1,7 +1,7 @@
 import { MigrateUpArgs, MigrateDownArgs, sql } from '@payloadcms/db-postgres'
 
 export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
-  await db.execute(sql`
+	await db.execute(sql`
    ALTER TABLE "users" ADD COLUMN "reset_password_requested_at" timestamp(3) with time zone;
   ALTER TABLE "media" ADD COLUMN "_objectkey" varchar;
   ALTER TABLE "video" ADD COLUMN "_objectkey" varchar;
@@ -27,7 +27,7 @@ export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
 }
 
 export async function down({ db, payload, req }: MigrateDownArgs): Promise<void> {
-  await db.execute(sql`
+	await db.execute(sql`
    DROP INDEX "media_locales_parent_id_idx";
   DROP INDEX "video_locales_parent_id_idx";
   DROP INDEX "itinerari_services_locales_parent_id_idx";

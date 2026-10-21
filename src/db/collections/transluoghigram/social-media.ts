@@ -1,9 +1,14 @@
-import { open, stat } from 'node:fs/promises'
 import { fileTypeFromBuffer } from 'file-type'
+import { open, stat } from 'node:fs/promises'
 import { CollectionConfig, ValidationError, type File, type PayloadRequest } from 'payload'
 
 import { hasCmsUser, isSocialAccount } from '@/db/access'
-import { canChangeOwnResource, canCreateAsCmsOrSocial, stampOwnerBeforeValidate } from '@/db/owned-by-social-account'
+import {
+	canChangeOwnResource,
+	canCreateAsCmsOrSocial,
+	stampOwnerBeforeValidate,
+} from '@/db/owned-by-social-account'
+
 import { CollectionGroup, imageSizes } from '../../utils'
 
 //

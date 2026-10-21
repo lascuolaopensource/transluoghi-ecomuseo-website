@@ -5,5 +5,5 @@ import { routing } from './routing'
 //
 
 export function hasLocale(locale: string) {
-  return hasLocaleNextIntl(routing.locales, locale)
+	return hasLocaleNextIntl(routing.locales, locale)
 }

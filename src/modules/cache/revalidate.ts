@@ -1,10 +1,11 @@
-import { revalidatePath, revalidateTag } from 'next/cache'
 import type {
 	CollectionAfterChangeHook,
 	CollectionAfterDeleteHook,
 	GlobalAfterChangeHook,
 	Payload,
 } from 'payload'
+
+import { revalidatePath, revalidateTag } from 'next/cache'
 
 import type { MainCollection } from '@/modules/brand'
 

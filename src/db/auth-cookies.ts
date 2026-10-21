@@ -1,4 +1,5 @@
 import type { Collection, IncomingAuthType } from 'payload'
+
 import { generateCookie, getCookieExpiration } from 'payload/shared'
 
 // Shared by every auth collection so a later cookie name still inherits Secure.
@@ -37,7 +38,11 @@ function socialAccountCookieInput(
 }
 
 // Same flags as the admin cookie (including Secure from `authCookies`), different name.
-export function socialAccountSessionCookie(auth: CollectionAuth, cookiePrefix: string, token: string) {
+export function socialAccountSessionCookie(
+	auth: CollectionAuth,
+	cookiePrefix: string,
+	token: string,
+) {
 	return generateCookie<false>({
 		...socialAccountCookieInput(
 			auth,

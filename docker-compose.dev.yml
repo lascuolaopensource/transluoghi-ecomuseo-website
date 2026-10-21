@@ -1,8 +1,9 @@
+# Local development only — Postgres (PostGIS) + MinIO for `pnpm dev`.
+# Production / Coolify builds the app from ./Dockerfile and must not use this file.
+
 services:
   postgres:
-    build:
-      context: ./docker/postgres
-      dockerfile: Dockerfile
+    image: postgis/postgis:17-3.6
     restart: always
     ports:
       - '5432:5432'
@@ -11,7 +12,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
       POSTGRES_DB: ${POSTGRES_DB:-morigerati}
     volumes:
-      - pgdata:/var/lib/postgresql
+      - pgdata:/var/lib/postgresql/data
     healthcheck:
       test: ['CMD-SHELL', 'pg_isready -U $${POSTGRES_USER:-postgres}']
       interval: 10s

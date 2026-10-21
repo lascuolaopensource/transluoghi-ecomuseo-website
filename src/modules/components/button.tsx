@@ -51,7 +51,13 @@ export function Button(props: Props) {
 	if (rest.download != null || isFileOrApiHref(rest.href)) {
 		const href = typeof rest.href === 'string' ? rest.href : undefined
 		return (
-			<a className={classes} href={href} download={rest.download} target={rest.target} rel={rest.rel}>
+			<a
+				className={classes}
+				href={href}
+				download={rest.download}
+				target={rest.target}
+				rel={rest.rel}
+			>
 				{content}
 			</a>
 		)

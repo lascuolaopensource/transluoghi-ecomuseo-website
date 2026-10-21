@@ -1,13 +1,13 @@
-import { enableStaticLocale } from '@/modules/i18n'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { getCachedGlobal, getCachedHomeItinerariTracks } from '@/modules/cache'
 import { Copertina } from '@/modules/components/copertina'
 import GridOverlay from '@/modules/components/grid-overlay'
 import { Map } from '@/modules/components/map/map'
 import { RichText } from '@/modules/components/richtext'
+import { enableStaticLocale } from '@/modules/i18n'
 import { generateGlobalMetadataFactory } from '@/modules/seo'
 import { getRelation, getRelations } from '@/modules/utils'
-import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { HomeSection } from './_partials/home-section'
 import { RecordsDisplay } from './_partials/records-display'

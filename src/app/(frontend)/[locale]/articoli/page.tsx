@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 
-import { enableStaticLocale } from '@/modules/i18n'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { getCachedCollectionList } from '@/modules/cache'
 import { CollectionCard } from '@/modules/components/collection-card'
@@ -8,8 +8,8 @@ import { CollectionHeading } from '@/modules/components/collection-grid-heading'
 import { Container } from '@/modules/components/container'
 import { Grid } from '@/modules/components/grid'
 import { MediaWithFallback } from '@/modules/components/media-with-fallback'
+import { enableStaticLocale } from '@/modules/i18n'
 import { formatDate } from '@/modules/utils'
-import type { PageWithLocaleProps } from '@/modules/utils/server'
 import { Articoli } from '@/payload-types'
 
 //

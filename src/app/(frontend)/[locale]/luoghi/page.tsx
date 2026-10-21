@@ -1,7 +1,7 @@
-import { enableStaticLocale } from '@/modules/i18n'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { CollectionGridPage } from '@/modules/components/collection-grid-page'
-import type { PageWithLocaleProps } from '@/modules/utils/server'
+import { enableStaticLocale } from '@/modules/i18n'
 
 //
 

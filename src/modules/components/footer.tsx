@@ -1,6 +1,7 @@
+import type { Footer as FooterType } from '@/payload-types'
+
 import { getCachedGlobal } from '@/modules/cache'
 import { Link } from '@/modules/i18n'
-import type { Footer as FooterType } from '@/payload-types'
 
 import { Container } from './container'
 import { Logo } from './logo'
