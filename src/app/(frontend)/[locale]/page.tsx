@@ -1,42 +1,31 @@
-import { getDb } from '#/utils/server'
-import { getLocale } from 'next-intl/server'
+import { enableStaticLocale } from '@/modules/i18n'
 
+import { getCachedGlobal, getCachedHomeItinerariTracks } from '@/modules/cache'
 import { Copertina } from '@/modules/components/copertina'
 import GridOverlay from '@/modules/components/grid-overlay'
 import { Map } from '@/modules/components/map/map'
 import { RichText } from '@/modules/components/richtext'
 import { generateGlobalMetadataFactory } from '@/modules/seo'
 import { getRelation, getRelations } from '@/modules/utils'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { HomeSection } from './_partials/home-section'
 import { RecordsDisplay } from './_partials/records-display'
 
 //
 
-export const dynamic = 'force-dynamic'
-
 export const generateMetadata = generateGlobalMetadataFactory('home')
 
 //
 
-export default async function Page() {
-	const locale = await getLocale()
-	const db = await getDb()
+export default async function Page(props: PageWithLocaleProps) {
+	const { locale: localeParam } = await props.params
+	const locale = enableStaticLocale(localeParam)
 
-	const home = await db.findGlobal({
-		slug: 'home',
-		locale: locale,
-	})
-
+	const home = await getCachedGlobal('home', locale)
 	const { itinerari: itinerariSection, luoghi, residenze } = home.sections
 
-	const itinerari = await db.find({
-		collection: 'itinerari',
-		select: {
-			slug: true,
-			gpx_track: true,
-		},
-	})
+	const itinerari = await getCachedHomeItinerariTracks(locale)
 
 	const tracciati = itinerari.docs
 		.map((i) => getRelation(i.gpx_track)?.url)

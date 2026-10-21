@@ -1,9 +1,10 @@
 import { getLocale } from 'next-intl/server'
 
+import { getCachedGlobal } from '@/modules/cache'
+import type { Locale } from '@/modules/i18n'
 import type { Footer as FooterType } from '@/payload-types'
 
 import { Link } from '../i18n'
-import { getDb } from '../utils/server'
 import { Container } from './container'
 import { Logo } from './logo'
 import { PixelBorder } from './pixel-border'
@@ -13,12 +14,8 @@ import { cn } from './shadcn/lib/utils'
 //
 
 export async function Footer() {
-	const db = await getDb()
-	const locale = await getLocale()
-	const footer = await db.findGlobal({
-		slug: 'footer',
-		locale: locale,
-	})
+	const locale = (await getLocale()) as Locale
+	const footer = await getCachedGlobal('footer', locale)
 
 	return (
 		<>

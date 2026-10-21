@@ -1,11 +1,14 @@
 import { type CollectionConfig, type Field } from 'payload'
 
 import { F, Section, Tab } from '@/db/_partials'
+import { mainCollectionRevalidateHooks } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 import { CollectionGroup } from '../utils'
 
 //
+
+const revalidate = mainCollectionRevalidateHooks('itinerari')
 
 export const Itinerari: CollectionConfig = {
 	slug: 'itinerari',
@@ -26,6 +29,11 @@ export const Itinerari: CollectionConfig = {
 		create: isCmsUser,
 		update: isCmsUser,
 		delete: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidate.afterChange],
+		afterDelete: [revalidate.afterDelete],
 	},
 
 	fields: [

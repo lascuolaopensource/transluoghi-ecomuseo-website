@@ -8,6 +8,9 @@ import { ServicesSection } from '#/components/services-section'
 import { getRecordBySlug, getSlug, PageWithSlugProps } from '#/utils/server'
 import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { ContactsSection } from '@/modules/components/contacts-section'
 import { InfoSection } from '@/modules/components/info-section'
 import { generateCollectionMetadataFactory } from '@/modules/seo'
@@ -15,11 +18,13 @@ import { Luoghi } from '@/payload-types'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('luoghi')
 
 export const generateMetadata = generateCollectionMetadataFactory('luoghi')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
+	enableStaticLocale((await pageProps.params).locale)
+
 	const slug = await getSlug(pageProps)
 	const { record: luogo } = await getRecordBySlug('luoghi', slug)
 

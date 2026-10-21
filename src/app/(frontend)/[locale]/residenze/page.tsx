@@ -1,6 +1,7 @@
 import { getLocale, getTranslations } from 'next-intl/server'
 
 import { Button } from '@/modules/components/button'
+import { enableStaticLocale } from '@/modules/i18n'
 import { CollectionHeading } from '@/modules/components/collection-grid-heading'
 import { Container } from '@/modules/components/container'
 import { EmptyState } from '@/modules/components/empty-state'
@@ -11,9 +12,12 @@ import CardResidenza from './_partials/card-residenza'
 
 //
 
+/** Time-based filter + searchParams: keep request-time rendering. */
 export const dynamic = 'force-dynamic'
 
 export default async function ResidenzePage(props: PageProps) {
+	enableStaticLocale((await props.params).locale)
+
 	const { filter, residenze } = await getPageData(props)
 	const t = await getTranslations('residenze')
 
@@ -73,6 +77,7 @@ const FILTER_PARAM = 'filter'
 type FilterType = 'archivio' | 'programma'
 
 interface PageProps {
+	params: Promise<{ locale: string }>
 	searchParams: Promise<{ [FILTER_PARAM]?: FilterType } | undefined | null>
 }
 

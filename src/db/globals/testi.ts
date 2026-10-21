@@ -1,6 +1,7 @@
 import type { GlobalConfig } from 'payload'
 
 import { F } from '@/db/_partials'
+import { revalidateTesti } from '@/modules/cache'
 
 import { isCmsUser } from '../access'
 
@@ -13,6 +14,10 @@ export const Testi: GlobalConfig<'testi'> = {
 	access: {
 		read: () => true,
 		update: isCmsUser,
+	},
+
+	hooks: {
+		afterChange: [revalidateTesti],
 	},
 
 	fields: [

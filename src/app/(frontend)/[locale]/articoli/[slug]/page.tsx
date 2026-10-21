@@ -1,5 +1,8 @@
 import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
 import { Copertina } from '@/modules/components/copertina'
@@ -13,11 +16,13 @@ import { getRecordBySlug, getSlug, PageWithSlugProps } from '@/modules/utils/ser
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('articoli')
 
 export const generateMetadata = generateCollectionMetadataFactory('articoli')
 
 export default async function ArticoloPage(props: PageWithSlugProps) {
+	enableStaticLocale((await props.params).locale)
+
 	const slug = await getSlug(props)
 	const { record: articolo } = await getRecordBySlug('articoli', slug)
 

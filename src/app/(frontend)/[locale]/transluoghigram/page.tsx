@@ -1,26 +1,22 @@
 import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { getCachedSocialFeed } from '@/modules/cache'
 import { Button } from '@/modules/components/button'
 import { EmptyState } from '@/modules/components/empty-state'
 import { T } from '@/modules/components/t'
-import { getDb } from '@/modules/utils/server'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 import { PostsList } from './_components/posts-list'
 
 //
 
-export default async function Page() {
-	const t = await getTranslations('transluoghigram')
-	const db = await getDb()
+export default async function Page(props: PageWithLocaleProps) {
+	enableStaticLocale((await props.params).locale)
 
-	// Fetch initial page for SSR
-	const posts = await db.find({
-		collection: 'social-post',
-		sort: '-createdAt',
-		depth: 2,
-		limit: 10,
-		overrideAccess: false,
-	})
+	const t = await getTranslations('transluoghigram')
+	const posts = await getCachedSocialFeed(10)
 
 	return (
 		<div className="space-y-6">

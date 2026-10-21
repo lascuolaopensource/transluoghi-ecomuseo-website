@@ -1,19 +1,14 @@
-import config from '@payload-config'
 import { getLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import {
-	CollectionSlug,
-	DataFromCollectionSlug,
-	getPayload,
-	PaginatedDocs,
-	type Payload,
-} from 'payload'
+import { DataFromCollectionSlug, PaginatedDocs } from 'payload'
 
-//
+import type { MainCollection } from '@/modules/brand'
+import { getCachedDocumentBySlug } from '@/modules/cache'
+import type { Locale } from '@/modules/i18n'
 
-export async function getDb(): Promise<Payload> {
-	return getPayload({ config }) as Promise<Payload>
-}
+import { getDb } from './get-db'
+
+export { getDb }
 
 export function getOne<Docs extends PaginatedDocs>(docs: Docs): Docs['docs'][number] {
 	const doc = docs.docs[0]
@@ -29,7 +24,14 @@ export interface PageProps {
 
 export interface PageWithSlugProps {
 	params: Promise<{
+		locale: string
 		slug: string
+	}>
+}
+
+export interface PageWithLocaleProps {
+	params: Promise<{
+		locale: string
 	}>
 }
 
@@ -39,31 +41,21 @@ export async function getSlug(pageProps: PageWithSlugProps): Promise<string> {
 
 //
 
-type GetBySlugResult<C extends CollectionSlug> = {
+type GetBySlugResult<C extends MainCollection> = {
 	record: DataFromCollectionSlug<C>
-	db: Payload
 	locale: string
 }
 
-export async function getRecordBySlug<C extends CollectionSlug>(
+export async function getRecordBySlug<C extends MainCollection>(
 	collection: C,
 	slug: string,
 ): Promise<GetBySlugResult<C>> {
-	const db = await getDb()
-	const locale = await getLocale()
-
-	const result = await db.find({
-		collection,
-		depth: 2,
-		locale,
-		where: { slug: { equals: slug } },
-	})
-
-	const record = getOne(result)
+	const locale = (await getLocale()) as Locale
+	const record = await getCachedDocumentBySlug(collection, slug, locale)
+	if (!record) return notFound()
 
 	return {
 		record,
-		db,
 		locale,
 	}
 }

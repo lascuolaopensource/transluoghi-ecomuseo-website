@@ -1,27 +1,24 @@
-import { getLocale, getTranslations } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { getCachedCollectionList } from '@/modules/cache'
 import { CollectionCard } from '@/modules/components/collection-card'
 import { CollectionHeading } from '@/modules/components/collection-grid-heading'
 import { Container } from '@/modules/components/container'
 import { Grid } from '@/modules/components/grid'
 import { MediaWithFallback } from '@/modules/components/media-with-fallback'
 import { formatDate } from '@/modules/utils'
-import { getDb } from '@/modules/utils/server'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 import { Articoli } from '@/payload-types'
 
 //
 
-export const dynamic = 'force-dynamic'
+export default async function NewsPage(props: PageWithLocaleProps) {
+	const { locale: localeParam } = await props.params
+	const locale = enableStaticLocale(localeParam)
 
-export default async function NewsPage() {
-	const db = await getDb()
-	const locale = await getLocale()
-
-	const articoli = await db.find({
-		collection: 'articoli',
-		locale,
-		sort: '-date',
-	})
+	const articoli = await getCachedCollectionList('articoli', locale, { sort: '-date' })
 
 	return (
 		<>

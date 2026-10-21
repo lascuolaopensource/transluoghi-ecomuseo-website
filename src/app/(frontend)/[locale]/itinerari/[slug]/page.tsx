@@ -1,5 +1,8 @@
 import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { Button } from '@/modules/components/button'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
@@ -17,11 +20,13 @@ import { ItinerarioDetailCards } from './_partials'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('itinerari')
 
 export const generateMetadata = generateCollectionMetadataFactory('itinerari')
 
 export default async function Itinerario(pageProps: PageWithSlugProps) {
+	enableStaticLocale((await pageProps.params).locale)
+
 	const slug = await getSlug(pageProps)
 	const { record: itinerario } = await getRecordBySlug('itinerari', slug)
 

@@ -1,6 +1,9 @@
 import { ArrowRight } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 
+import { enableStaticLocale } from '@/modules/i18n'
+
+import { generateCollectionStaticParams } from '@/modules/cache'
 import { CollectionPageHeading } from '@/modules/components/collection-page-heading'
 import { Container } from '@/modules/components/container'
 import { Copertina } from '@/modules/components/copertina'
@@ -18,11 +21,13 @@ import { ProgrammaSection } from './_partials/programma-section'
 
 //
 
-export const dynamic = 'force-dynamic'
+export const generateStaticParams = () => generateCollectionStaticParams('residenze')
 
 export const generateMetadata = generateCollectionMetadataFactory('residenze')
 
 export default async function ResidenzaSlug(props: PageWithSlugProps) {
+	enableStaticLocale((await props.params).locale)
+
 	const slug = await getSlug(props)
 	const { record: residenza } = await getRecordBySlug('residenze', slug)
 	const t = await getTranslations('residenze')

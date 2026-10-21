@@ -1,9 +1,12 @@
+import { enableStaticLocale } from '@/modules/i18n'
+
 import { CollectionGridPage } from '@/modules/components/collection-grid-page'
+import type { PageWithLocaleProps } from '@/modules/utils/server'
 
 //
 
-export const dynamic = 'force-dynamic'
+export default async function Page(props: PageWithLocaleProps) {
+	enableStaticLocale((await props.params).locale)
 
-export default async function Page() {
 	return <CollectionGridPage collection="itinerari" />
 }

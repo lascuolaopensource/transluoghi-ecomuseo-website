@@ -5,6 +5,9 @@ import { GlobalSlug } from 'payload'
 
 import type { Home, Media } from '@/payload-types'
 
+import { getCachedGlobal } from '@/modules/cache'
+import type { Locale } from '@/modules/i18n'
+
 import { MainCollection } from '../brand'
 import { brandText } from '../brand/text'
 import { getRelation } from '../utils'
@@ -27,14 +30,9 @@ export function generateCollectionMetadataFactory<C extends MainCollection>(coll
 
 export function generateGlobalMetadataFactory<G extends GlobalSlug>(global: G) {
 	return async function (): Promise<Metadata> {
-		const db = await getDb()
-		const locale = await getLocale()
-		const record = await db.findGlobal({
-			slug: global,
-			locale,
-		})
-		// @ts-expect-error - Slight type mismatch
-		return generateMeta({ doc: record.record })
+		const locale = (await getLocale()) as Locale
+		const record = await getCachedGlobal(global, locale)
+		return generateMeta({ doc: record as WithMeta })
 	}
 }
 
